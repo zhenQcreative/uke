@@ -1,0 +1,11 @@
+Uke - 2.19 - shane, jessica
+
+-added button.css to make circular nav on welcome.html (jessica)
+-updated dev note to test github push/pull access
+ 
+
+
+
+
+
+
