@@ -1,0 +1,10 @@
+[
+	{"chordId": 1,
+	 "chordName": "A",
+	 "imageUrl": "images/chords/Ukulele_A.png"
+	},
+	{"chordId": 2,
+	 "chordName": "Amin",
+	 "imageUrl": "images/chords/Ukulele_Am.png"
+	}
+]

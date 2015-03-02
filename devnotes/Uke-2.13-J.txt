@@ -1,0 +1,4 @@
+Uke - 2.13 - Jessica
+
+-Added all the chords image except sharp and flat for invert 1 and invert2
+-updated the productResourceMock's chord array and prog arrary with the new chord images information

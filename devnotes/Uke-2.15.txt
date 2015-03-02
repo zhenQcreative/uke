@@ -1,0 +1,12 @@
+Uke - 2.15 - jessica
+
+TipView
+
+- next and prev button is working
+- can go to any array of data in the same vm
+--by clicking next or prev
+--by clicking buttons at the top
+
+app.css
+
+-editted some of the styles under #tips

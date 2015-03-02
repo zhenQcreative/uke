@@ -1,0 +1,20 @@
+Uke - 2.02
+Welcome
+1. background image set to beach theme (img file size causing slow load)
+2. nav butns wired to change state like top nav
+3. temp icon files in root directory but not appearing on phone desktop
+
+
+Chords
+1. A alternate chords corrected - all working (still hard coded)
+2. image registration currently causing chord img to jump
+3. chord image dimensions too large for default mobile display
+
+Tips
+1. reads from updated productResourceMock and tipListCtrl but still reads from products jSON array
+
+Themes
+1. not yet reading from jSON file (static info in the html view)
+
+
+

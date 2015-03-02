@@ -1,0 +1,19 @@
+Uke - 2.01
+Welcome
+1. no background image or styling (looks like web app not mobile app)
+2. index.tml still contains bootstrap mini menu with main nav items (replace with alternate functions and place main nav items on menu)
+3. Mian nav still at top (consider moving main nav from top to side with expanding view control)
+
+Chords
+1. A alternate chords should work in chord view
+2. routing hard coded in separate files and states in app.js
+
+Tips
+1. Tips content reading from default products jSON in ng-mock
+2. back/next buttons not working
+3. no pagination on tips so the complete list is displayed at once
+
+Themes
+1. no descriptions
+2. preview/select buttons not working
+3. no image / animation for each theme (or preview)

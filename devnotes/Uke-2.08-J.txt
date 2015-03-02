@@ -1,0 +1,9 @@
+Uke - 2.08 - Jessica
+
+Chords views
+-use ng-repeat for chord variations
+-calling chords json list from productservicemock
+-image display still broken
+
+Tips views
+-Shane updated tip json list and made it work

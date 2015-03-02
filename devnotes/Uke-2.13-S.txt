@@ -1,0 +1,9 @@
+Uke - 2.13 - Shane
+
+Shane 
+-updated progCtrl to list progression styles ont he left and poplate progressions array
+-updated productMock with sequential numbers and a 4th img untl even when there isn't one 
+-updated progView state in app.js to call proper controller
+-updated app.css for prog classes
+-updated progView to display four chords when possible for 4 chord progressions
+- added more images so chord progressions display in each key

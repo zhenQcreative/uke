@@ -1,0 +1,10 @@
+Uke - 2.05 - Jessica
+
+Chords views
+-move and edit files to chords folder
+-now the subviews has only one snippet of code for chord image
+-maj chord view has the reusable codes
+
+App.js
+-changed states for chords
+-made substates

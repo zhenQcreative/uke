@@ -1,0 +1,11 @@
+Uke - 2.02 - Jessica
+
+made changes to 
+-app.js
+--changed path of 		.state("chordViewA", {
+							url: "/chords",
+							templateUrl: "app/chords/chordViewA.html",
+							controller: "ProductListCtrl as vm"
+						})
+-app.css
+-chordViewA in /chords folder

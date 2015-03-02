@@ -1,0 +1,10 @@
+Uke - 2.09 - Jessica
+
+Chords views
+-fixed the chordViewCtrl to populate image from chords array in productServiceMock
+-pulling data dynamicly
+
+Overall
+-cleaned the chord folder
+-removed redundant files
+

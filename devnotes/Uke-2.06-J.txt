@@ -1,0 +1,9 @@
+Uke - 2.06 - Jessica
+
+Chords views
+-removed the table
+-use bootstrap col-xs-* for small devices to keep column from flowing to the next row
+
+App.css
+-use gradient instead of background image
+-edit some css code that makes the chordview look nice

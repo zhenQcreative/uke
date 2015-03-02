@@ -1,0 +1,51 @@
+<div class="panel panel-primary" id="progChords">
+	<div class="panel-body">
+		<table class="table">
+				<td class="col-xs-1">
+					<ul >
+						<li >
+							 <a class="active" ng-click="selectStyle('Folk 1', vm.currentChords.chordGroup)">Folk 1</a>
+						</li>
+						<li >
+							 <a class="active" ng-click="selectStyle('Blues 1', vm.currentChords.chordGroup)">Blues 1</a>
+						</li>
+						<li >
+							 <a class="active" ng-click="selectStyle('Blues 2', vm.currentChords.chordGroup)">Blues 2</a>
+						</li>
+						<li >
+							 <a class="active" ng-click="selectStyle('Jazz 1', vm.currentChords.chordGroup)">Jazz 1</a>
+						</li>
+						<li >
+							 <a class="active" ng-click="selectStyle('Ballad 1', vm.currentChords.chordGroup)">Ballad 1</a>
+						</li>
+						<li >
+							 <a class="active" ng-click="selectStyle('Ballad 2', vm.currentChords.chordGroup)">Ballad 2</a>
+						</li>
+					</ul>
+				</td>
+				<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
+					<div>
+						<img ng-src="{{vm.currentChords.imageUrl1}}"
+							 title="{{vm.currentChords.image1Title}}">
+						<img ng-src="{{vm.currentChords.imageUrl2}}"
+							 title="{{vm.currentChords.image2Title}}">
+						<img ng-src="{{vm.currentChords.imageUrl3}}"
+							 title="{{vm.currentChords.image3Title}}">
+						<img ng-src="{{vm.currentChords.imageUrl4}}"
+							 title="{{vm.currentChords.image4Title}}">
+					</div>	
+					<div class="row" id="progTitle">
+						<div><span>{{vm.currentChords.progName}}</span></div>
+						<div><span>{{vm.currentChords.progTitle}}</span></div>
+					</div>
+				</td>
+			</table>
+		</div>
+		<div class = "row" id="progNav"> 
+			<div ng-repeat="chord in vm.filteredChords">
+				<div class = "col-xs-1">
+				<a ng-click="selectChord(chord)">{{chord.chordGroup}}</a> </div>
+			</div>
+		</div>
+	</div>
+</div>

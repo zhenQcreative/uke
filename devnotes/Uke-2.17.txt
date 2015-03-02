@@ -1,0 +1,29 @@
+Uke - 2.17 - shane
+
+improv1View
+-updated progView template to show Major and Minor pattern controls (5 each)
+-made bottom chords inactive
+
+improv1Ctrl
+-updated progViewCtrl to call improv1Resource and "mostly" use pattern references in the code
+
+app.jsp
+-added two new states only one of whcih are crrently being used to display both major and minor pentatonics
+-the other could be used for major and minor scales later if we want
+
+new improv1Resource and improv2Resource services to call improv1 and 2 json collections (only 1 being called now)
+
+index.html
+-updated top menu to include option for "Improv"
+-added links to resources, controller
+
+app.css
+-addded new section for patterns - mainly the same as "prog" but minor changes to style patternHdr (Maj/Min) and size image to 80%
+
+welcomeView
+-updated to add nav option for "Improv"
+
+
+
+
+

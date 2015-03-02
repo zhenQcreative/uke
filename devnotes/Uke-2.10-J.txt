@@ -1,0 +1,14 @@
+Uke - 2.10 - Jessica
+
+productResourceMock.js
+
+- updated the chords array to include A, B, C (major chords and their variants)
+- updated the chords array to include major chords (D, E, F, G)
+
+Chords views
+-added filter function in chordViewCtrl.js to filter the list for selected chord
+-hide hold image when a major chord &/ its variants is selected and replace with chord image
+
+Errors
+-flat and sharp is not working yet
+-won't replace previous chord image when another major chord button at the bottom is pressed, not until you press the button on the vertical row of buttons

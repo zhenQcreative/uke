@@ -1,0 +1,11 @@
+Uke - 2.07 - Jessica
+
+Chords views
+-put the table back
+
+App.css
+-fixed the "html, body" tag that was causing the filling/sizing issue on phone
+-put in styles for "tips" and "theme"
+
+Other
+-maybe some other things I can't remember

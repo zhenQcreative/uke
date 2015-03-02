@@ -1,0 +1,16 @@
+Uke - 2.11 - Jessica
+
+Shane 
+-added progressions folder with progView.html and progViewCtrl.js
+-added progressions collection to mock
+-updated index.html to include progressions menu link
+-J -added link to progViewCtrl.js in index.html
+-updated welcome.html to include progressions menu option
+-created new progressions state in app.js
+-copied chordViewA to progView to use as template for expansion
+-J -ItemController is now called ProgressionCtrl to avoid future conflicts
+
+Chord View
+-flats and sharps are working
+-chordViewCtrl has proper comments added
+-ItemController is now called ChordViewCtrl to avoid future conflicts

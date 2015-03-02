@@ -1,0 +1,2 @@
+chordview
+-screen can be resized.

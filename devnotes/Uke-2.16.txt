@@ -1,0 +1,18 @@
+Uke - 2.16 - jessica
+
+ChordView
+-rewrote the chordViewctrl
+--less codes
+--better data calls
+--useful functions only
+-rewrote parts of the chordView.html for image calls
+
+ProgView
+-rewrote the progViewctrl
+--working codes
+--better data calls
+--useful functions only
+-rewrote parts of the progView.html
+--regroup of button functions
+--better image calls
+
