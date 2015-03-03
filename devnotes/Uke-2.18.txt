@@ -1,14 +1,8 @@
-Uke - 2.18 - shane
+Uke - 2.19 - shane, jessica
 
-improv1View
--updated patternTitle to correct terminology: 1st Position etc
-
-app.css
--updated altChord img to float left for better horizontal alignment on tablets
--updated progChord and patternChord img to 5% smaller to attempt to allow right margin on iPhone 5
-
-progView
--returned pattern nav to "active" to stay consistent with the rest of the app 
+-added button.css to make circular nav on welcome.html (jessica)
+-updated dev note to test github push/pull access
+ 
 
 
 

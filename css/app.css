@@ -115,6 +115,8 @@ html, body {
 	border-radius: 30px;
 }
 
+
+
 /**--------------PROGRESSION VIEW------------------**/
 #progChords {
 	background: transparent;
@@ -391,7 +393,9 @@ html, body {
 	position: relative;
 		
 }
-/**--------------------------------**/
+
+/**--------------TIP VIEW------------------**/
+
 #tips .panel-heading{
 	background-color: #DA9223;
 	border-color: #DA9223;
@@ -413,6 +417,19 @@ html, body {
 	width:50%; 
 	max-width: 200px;
 }
+
+#tipTitle {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Verdana', Sans;
+	font-weight: bold;
+	line-height: 40px;
+	/*float: right; */
+	text-align: center;
+	padding: 0px;
+	margin:5px;
+}
+
 /*----------------------------------**/
 #themes .panel-heading{
 	background-color: #DA9223;
