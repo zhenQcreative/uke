@@ -85,11 +85,11 @@
 </div>
 -->
 <!--each array of datas-->
-<div class="panel panel-primary" id="tips">
-	<div class="panel-heading" style="font-size:large"> 
-		{{vm.currentTip.tipName}}
+<div id="tips">
+	<div style="font-size:large"> 
+		<h2>{{vm.currentTip.tipName}}</h2>
 	</div>
-	<div class="panel-body" style="font-size:large">
+	<div style="font-size:large">
 		<div class="row">
 		<img ng-src="{{vm.currentTip.imageUrl}}"
 		     title="{{tip.tipName}}">
@@ -140,7 +140,7 @@
 			  </div>
 		</div>
 	</div>
-	<div class="panel-footer" style="font-size:large"> 
+	<div style="font-size:large; float: right"> 
 		<button class="btn btn-primary"  ng-click="prevPage()">Prev</button>
 		<button class="btn btn-primary"  ng-click="nextPage()">Next</button>
 	</div>
