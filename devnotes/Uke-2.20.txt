@@ -1,0 +1,18 @@
+Uke - 2.20 - shane
+
+tipView.html
+-removed main panel container and changed title style
+-removed bottom panel and moved buttons right
+
+productMockResource
+-added several imageUrls for each tip for future use in accordian layouts
+-added 3 more tips
+
+index.html
+-updated version to 2.20 
+
+
+
+
+
+
