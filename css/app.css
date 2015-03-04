@@ -407,14 +407,26 @@ html, body {
 #tips .btn-primary{
 	background-color: #DA9223;
 	border-color: #DA9223;
-	margin: 1px;
+	margin: 0px 0px 0px 0px;
 }
+
+#tips .btn-primary-nextBack{
+	background-color: #DA9223;
+	border-color: #DA9223;
+	margin: 0px 0px 0px 0px;
+	color: #fff;
+}
+
 #tips .row{
 	padding: 10px;
+	margin: 0px 0px 0px 0px;
 }
+
 #tips img{
 	float: right;
 	width:50%; 
+	margin: 10px;
+	padding: 0px;
 	max-width: 200px;
 }
 
@@ -428,6 +440,24 @@ html, body {
 	text-align: center;
 	padding: 0px;
 	margin:5px;
+}
+
+#tipText {
+	font-size: Medium;
+	color: #333;
+	float: left;
+	text-align: left;
+	margin:5px;
+}
+
+/* currebtly superceded by tips .btn-primary above so this really has litle effect */
+#NextBackBtn {
+	font-size:large; 
+	float: right;
+	margin: 0px;
+	padding: 5px;
+	vertical-align: top;
+	color: #333;	
 }
 
 /*----------------------------------**/
