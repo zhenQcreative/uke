@@ -1,0 +1,17 @@
+Uke - 2.21 - shane
+
+tipView.html
+-updated id on tipTitle
+
+productMockResource
+-standardized size of images by using the same imgUrl for each tip until new photos can be added
+-created new style for tipTitle (white, 30 pt font and bold, centered)
+
+index.html
+-updated version number 
+
+
+
+
+
+
