@@ -23,11 +23,16 @@ index.html
 -had to make a special separated code for sharp and flat 'active'
 -now all the buttons reflect when it's active
 
--editted the app.css ==> #tips .btn-primary-nextBack{
-	
-	margin: -5px 0px 0px 0px;
+-editted the app.css for #tips .btn-primary-nextBack{
+	...
+	margin: -20px 0px 10px 0px;
 	
 }
+-editted the #tipText {
+	...
+	margin:5px 5px 0px 5px;
+}
+
 
 
 
