@@ -2,60 +2,60 @@
 	<div id="tipTitle"> 
 		{{vm.currentTip.tipName}}
 	</div>
-	<div style="font-size:large">
-		<div class="row">
-		<img ng-src="{{vm.currentTip.imageUrl}}"
-		     title="{{tip.tipName}}">
-		{{vm.currentTip.tipInfo}}
-		</div>
-		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-				<div class="panel panel-default">
-				    <div class="panel-heading" role="tab" id="headingOne{{vm.currentTip.tipId}}">
-				      <h4 class="panel-title">
-				        <button data-toggle="collapse" class="btn btn-primary" type="button" data-parent="#accordion" href="#collapseOne{{vm.currentTip.tipId}}" aria-expanded="true" aria-controls="collapseOne{{vm.currentTip.tipId}}">
-				          Tip #1
+	<div id="tipText">
+			<div class="row">
+				<img ng-src="{{vm.currentTip.imageUrl}}"
+				     title="{{tip.tipName}}">
+				{{vm.currentTip.tipInfo}}
+			</div>
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="headingOne{{vm.currentTip.tipId}}">
+					      <h4 class="panel-title">
+					        <button data-toggle="collapse" class="btn btn-primary" type="button" data-parent="#accordion" href="#collapseOne{{vm.currentTip.tipId}}" aria-expanded="true" aria-controls="collapseOne{{vm.currentTip.tipId}}">
+					          Tip #1
+					        </button>
+					      </h4>
+					    </div>
+					    <div id="collapseOne{{vm.currentTip.tipId}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne{{vm.currentTip.tipId}}">
+					      <div class="panel-body">
+					        <p>{{vm.currentTip.tipInfo1}}</p>
+					      </div>
+					    </div>
+				  	</div>
+				  	<div class="panel panel-default">
+				   		<div class="panel-heading" role="tab" id="headingTwo{{vm.currentTip.tipId}}">
+				      	<h4 class="panel-title">
+				        <button data-toggle="collapse" class="btn btn-primary" type="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo{{vm.currentTip.tipId}}" aria-expanded="false" aria-controls="collapseTwo{{vm.currentTip.tipId}}">
+				          Tip #2
 				        </button>
-				      </h4>
-				    </div>
-				    <div id="collapseOne{{vm.currentTip.tipId}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne{{vm.currentTip.tipId}}">
-				      <div class="panel-body">
-				        <p>{{vm.currentTip.tipInfo1}}</p>
-				      </div>
-				    </div>
-			  	</div>
-			  	<div class="panel panel-default">
-			   		<div class="panel-heading" role="tab" id="headingTwo{{vm.currentTip.tipId}}">
-			      	<h4 class="panel-title">
-			        <button data-toggle="collapse" class="btn btn-primary" type="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo{{vm.currentTip.tipId}}" aria-expanded="false" aria-controls="collapseTwo{{vm.currentTip.tipId}}">
-			          Tip #2
-			        </button>
-			      	</h4>
-			    	</div>
-			    	<div id="collapseTwo{{vm.currentTip.tipId}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo{{vm.currentTip.tipId}}">
-			      	<div class="panel-body">
-			        	<p>{{vm.currentTip.tipInfo2}}</p>
-			      	</div>
-			    	</div>
-			  	</div>
-			  	<div class="panel panel-default">
-			    	<div class="panel-heading" role="tab" id="headingThree{{vm.currentTip.tipId}}">
-			      	<h4 class="panel-title">
-			        <button data-toggle="collapse" class="btn btn-primary" type="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree{{vm.currentTip.tipId}}" aria-expanded="false" aria-controls="collapseThree{{vm.currentTip.tipId}}">
-			          Tip #3
-			        </button>
-			      	</h4>
-			    	</div>
-			    	<div id="collapseThree{{vm.currentTip.tipId}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree{{vm.currentTip.tipId}}">
-			      	<div class="panel-body">
-			        <p>{{vm.currentTip.tipInfo3}}</p>
-			      	</div>
-			    	</div>
-			  </div>
+				      	</h4>
+				    	</div>
+				    	<div id="collapseTwo{{vm.currentTip.tipId}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo{{vm.currentTip.tipId}}">
+				      	<div class="panel-body">
+				        	<p>{{vm.currentTip.tipInfo2}}</p>
+				      	</div>
+				    	</div>
+				  	</div>
+				  	<div class="panel panel-default">
+				    	<div class="panel-heading" role="tab" id="headingThree{{vm.currentTip.tipId}}">
+				      	<h4 class="panel-title">
+				        <button data-toggle="collapse" class="btn btn-primary" type="button" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree{{vm.currentTip.tipId}}" aria-expanded="false" aria-controls="collapseThree{{vm.currentTip.tipId}}">
+				          Tip #3
+				        </button>
+				      	</h4>
+				    	</div>
+				    	<div id="collapseThree{{vm.currentTip.tipId}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree{{vm.currentTip.tipId}}">
+					      	<div class="panel-body">
+					        	<p>{{vm.currentTip.tipInfo3}}</p>
+					      	</div>
+				    	</div>
+				  </div>
+			</div>
 		</div>
-	</div>
-	<div style="font-size:large; float: right"> 
-		<button class="btn btn-primary"  ng-click="prevPage()">Prev</button>
-		<button class="btn btn-primary"  ng-click="nextPage()">Next</button>
+	<div class="row" id="NextBackBtn"> 
+		<button class="btn btn-primary-nextBack"  ng-click="prevPage()">Prev</button>
+		<button class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
 	</div>
 </div>
 	

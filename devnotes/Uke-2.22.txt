@@ -1,0 +1,25 @@
+Uke - 2.22 - shane
+welcomeView
+-reformatted html for readability
+
+tipView.html
+-added id and class=row to bottom div for next/back butn styling so buttons wouldn't stay at the bottom of the window with no padding
+
+app.css
+-updated tipText color and size
+-updated tip .img for extra padding and margin for better readability
+-added new class for next back butns so we can change colors to differentiate from accordion boxes if we want in the future
+
+productResourceMock
+-updated tips text with minor refinements and typo corrections
+-updated progressions with 3 new R&B sequences
+
+index.html
+-updated version number
+ 
+
+
+
+
+
+
