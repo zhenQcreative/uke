@@ -17,6 +17,17 @@ productResourceMock
 index.html
 -updated version number
  
+---Jessica---
+
+-added code to all the controller in app that allows the 'active' class style work for each of the buttons
+-had to make a special separated code for sharp and flat 'active'
+-now all the buttons reflect when it's active
+
+-editted the app.css ==> #tips .btn-primary-nextBack{
+	
+	margin: -5px 0px 0px 0px;
+	
+}
 
 
 

@@ -41,6 +41,23 @@
 
 		});
 
+		//this sets the ng-class to active for side and bottom buttons
+		vm.currentPatterns = [];
+    	$scope.active = function(item){
+
+    		switch(item) {
+			    case vm.currentPatterns:
+			        return "active";
+			        break;
+			    case vm.currentPatterns.patternStyle:
+			        return "active";
+			        break;
+			    default:
+			        return "!active";
+			}
+			
+    	};
+
 		//passed in progStyle "name" and current chordGroup "chord"
 		//used by the side buttons
 		//for populating major chord buttons at the bottom with these limitations

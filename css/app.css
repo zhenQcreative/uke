@@ -413,7 +413,7 @@ html, body {
 #tips .btn-primary-nextBack{
 	background-color: #DA9223;
 	border-color: #DA9223;
-	margin: 0px 0px 0px 0px;
+	margin: -5px 0px 0px 0px;
 	color: #fff;
 }
 

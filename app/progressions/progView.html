@@ -4,31 +4,31 @@
 				<td class="col-xs-1">
 					<ul >
 						<li >
-							 <a class="active" ng-click="selectStyle('Folk 1', vm.currentChords.chordGroup)">Folk 1</a>
+							 <a ng-class="active('Folk 1')" ng-click="selectStyle('Folk 1', vm.currentChords.chordGroup)">Folk 1</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('Blues 1', vm.currentChords.chordGroup)">Blues 1</a>
+							 <a ng-class="active('Blues 1')" ng-click="selectStyle('Blues 1', vm.currentChords.chordGroup)">Blues 1</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('Blues 2', vm.currentChords.chordGroup)">Blues 2</a>
+							 <a ng-class="active('Blues 2')" ng-click="selectStyle('Blues 2', vm.currentChords.chordGroup)">Blues 2</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('Jazz 1', vm.currentChords.chordGroup)">Jazz 1</a>
+							 <a ng-class="active('Jazz 1')" ng-click="selectStyle('Jazz 1', vm.currentChords.chordGroup)">Jazz 1</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('Ballad 1', vm.currentChords.chordGroup)">Ballad 1</a>
+							 <a ng-class="active('Ballad 1')" ng-click="selectStyle('Ballad 1', vm.currentChords.chordGroup)">Ballad 1</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('Ballad 2', vm.currentChords.chordGroup)">Ballad 2</a>
+							 <a ng-class="active('Ballad 2')" ng-click="selectStyle('Ballad 2', vm.currentChords.chordGroup)">Ballad 2</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('R&B  1', vm.currentChords.chordGroup)">R&B   1</a>
+							 <a ng-class="active('R&B  1')" ng-click="selectStyle('R&B  1', vm.currentChords.chordGroup)">R&B   1</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('R&B  2', vm.currentChords.chordGroup)">R&B   2</a>
+							 <a ng-class="active('R&B  2')" ng-click="selectStyle('R&B  2', vm.currentChords.chordGroup)">R&B   2</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('R&B  3', vm.currentChords.chordGroup)">R&B   3</a>
+							 <a ng-class="active('R&B  3')" ng-click="selectStyle('R&B  3', vm.currentChords.chordGroup)">R&B   3</a>
 						</li>
 					</ul>
 
@@ -54,7 +54,7 @@
 		<div class = "row" id="progNav"> 
 			<div ng-repeat="chord in vm.filteredChords">
 				<div class = "col-xs-1">
-				<a ng-click="selectChord(chord)">{{chord.chordGroup}}</a> </div>
+				<a ng-class="active(chord)" ng-click="selectChord(chord)">{{chord.chordGroup}}</a> </div>
 			</div>
 		</div>
 	</div>

@@ -7,19 +7,19 @@
 						</div>
 						<ul >			
 							<li >
-								 <a class="active" ng-click="selectStyle('1', vm.currentPatterns.chordGroup)">1</a>
+								 <a ng-class="active('1')" ng-click="selectStyle('1', vm.currentPatterns.chordGroup)">1</a>
 							</li>
 							<li >
-								 <a class="active" ng-click="selectStyle('2', vm.currentPatterns.chordGroup)">2</a>
+								 <a ng-class="active('2')" ng-click="selectStyle('2', vm.currentPatterns.chordGroup)">2</a>
 							</li>
 							<li >
-								 <a class="active" ng-click="selectStyle('3', vm.currentPatterns.chordGroup)">3</a>
+								 <a ng-class="active('3')" ng-click="selectStyle('3', vm.currentPatterns.chordGroup)">3</a>
 							</li>
 							<li >
-								 <a class="active" ng-click="selectStyle('4', vm.currentPatterns.chordGroup)">4</a>
+								 <a ng-class="active('4')" ng-click="selectStyle('4', vm.currentPatterns.chordGroup)">4</a>
 							</li>
 							<li >
-								 <a class="active" ng-click="selectStyle('5', vm.currentPatterns.chordGroup)">5</a>
+								 <a ng-class="active('5')" ng-click="selectStyle('5', vm.currentPatterns.chordGroup)">5</a>
 							</li>
 						</ul>
 
@@ -28,19 +28,19 @@
 					</div>
 					<ul >			
 						<li >
-							 <a class="active" ng-click="selectStyle('m1', vm.currentPatterns.chordGroup)">1</a>
+							 <a ng-class="active('m1')" ng-click="selectStyle('m1', vm.currentPatterns.chordGroup)">1</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('m2', vm.currentPatterns.chordGroup)">2</a>
+							 <a ng-class="active('m2')" ng-click="selectStyle('m2', vm.currentPatterns.chordGroup)">2</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('m3', vm.currentPatterns.chordGroup)">3</a>
+							 <a ng-class="active('m3')" ng-click="selectStyle('m3', vm.currentPatterns.chordGroup)">3</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('m4', vm.currentPatterns.chordGroup)">4</a>
+							 <a ng-class="active('m4')" ng-click="selectStyle('m4', vm.currentPatterns.chordGroup)">4</a>
 						</li>
 						<li >
-							 <a class="active" ng-click="selectStyle('m5', vm.currentPatterns.chordGroup)">5</a>
+							 <a ng-class="active('m5')" ng-click="selectStyle('m5', vm.currentPatterns.chordGroup)">5</a>
 						</li>
 					</ul>
 				</td>				
@@ -59,7 +59,8 @@
 		<div class = "row" id="patternNav"> 
 			<div ng-repeat="chord in vm.filteredChords">
 				<div class = "col-xs-1">
-				<a ng-click="selectChord(chord)">{{chord.chordGroup}}</a> </div>
+				<a ng-class="active(chord)" 
+				   ng-click="selectChord(chord)">{{chord.chordGroup}}</a> </div>
 			</div>
 		</div>
 	</div>

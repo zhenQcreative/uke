@@ -41,6 +41,25 @@
 
 		});
 
+		//this sets the ng-class to active for side and bottom buttons
+		vm.currentChords = [];
+    	$scope.active = function(item){
+    		
+    		switch(item) {
+			    case vm.currentChords:
+			        return "active";
+			        break;
+			    case vm.currentChords.progStyle:
+			    	console.log("active:", item);
+			    	console.log("active:", vm.currentChords.progStyle);
+			        return "active";
+			        break;
+			    default:
+			        return "!active";
+			}
+			
+    	};
+
 		//passed in progStyle "name" and current chordGroup "chord"
 		//used by the side buttons
 		//for populating major chord buttons at the bottom with these limitations
