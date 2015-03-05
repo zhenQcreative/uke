@@ -105,7 +105,7 @@ html, body {
 #sharpFlatNav{
 	/*don't put anything in here or risk 
 	overiding image size and position too*/
-
+	margin-left: 20%;
 }
 
 #sharpFlatNav a{
@@ -113,6 +113,12 @@ html, body {
 	color: #CF6314;
 	text-align: center;
 	border-radius: 30px;
+	float: center;
+	
+}
+
+#sharpFlatNav span{
+	float: left;
 }
 
 
