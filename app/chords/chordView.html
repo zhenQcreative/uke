@@ -4,7 +4,7 @@
 				<td class="col-xs-1">
 					<ul ng-repeat="chord in vm.filteredChords">
 						<li >
-							 <a class="active" ng-click="selectChord(chord)">{{chord.chordName}}</a>
+							 <a ng-class="active(chord)" ng-click="selectChord(chord)">{{chord.chordName}}</a>
 						</li>
 					</ul>
 				</td>
@@ -24,10 +24,10 @@
 					<div class = "row" id="sharpFlatNav">
  							<div class = "col-xs-2 col-sm-2 col-md-2"></div>
  							<div class = "col-xs-2 col-sm-2 col-md-2">
-							<a ng-click="flat()" >b</a> </div>
+							<a ng-class="vm.flat" ng-click="flat('f')" > b </a> </div>
 							<div class = "col-xs-3 col-sm-5 col-md-5"></div>
 							<div class = "col-xs-2 col-sm-2 col-md-2">
-							<a ng-click="sharp()" >#</a> </div>
+							<a ng-class="vm.sharp" ng-click="sharp('s')" > # </a> </div>
 							<div class = "col-xs-2 col-sm-1 col-md-1"></div>
  						</div> 
 				</td>
@@ -35,19 +35,19 @@
 		</div>
 		<div class = "row" id="chordNav">
 				<div class = "col-xs-1">
-				<a class="active"  ng-click="goToChords('A')">A</a> </div>
+				<a ng-class="active('A')" ng-click="goToChords('A')">A</a> </div>
 				<div class = "col-xs-1">
-				<a ng-click="goToChords('B')" >B</a> </div>
+				<a ng-class="active('B')" ng-click="goToChords('B')" >B</a> </div>
 				<div class = "col-xs-1">
-				<a ng-click="goToChords('C')" >C</a> </div>
+				<a ng-class="active('C')" ng-click="goToChords('C')" >C</a> </div>
 				<div class = "col-xs-1">
-				<a ng-click="goToChords('D')" >D</a> </div>
+				<a ng-class="active('D')" ng-click="goToChords('D')" >D</a> </div>
 				<div class = "col-xs-1">
-				<a ng-click="goToChords('E')" >E</a> </div>
+				<a ng-class="active('E')" ng-click="goToChords('E')" >E</a> </div>
 				<div class = "col-xs-1">
-				<a ng-click="goToChords('F')" >F</a> </div>
+				<a ng-class="active('F')" ng-click="goToChords('F')" >F</a> </div>
 				<div class = "col-xs-1">
-				<a ng-click="goToChords('G')" >G</a> </div>
+				<a ng-class="active('G')" ng-click="goToChords('G')" >G</a> </div>
 		</div>
 	</div>
 </div>
