@@ -68,7 +68,8 @@
 
 						.state("Themes", {
 							url: "/themes",
-							templateUrl: "app/themes/themeView.html"
+							templateUrl: "app/themes/themeView.html",
+							controller: "ThemeListCtrl as vm"
 						})
 
 				}]

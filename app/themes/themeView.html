@@ -1,52 +1,29 @@
 <div id="themes">
-<div class="panel panel-primary">
-	<div class="panel-heading" style="font-size:large">
-		Theme Selection
+  <div id="themeTitle">
+		Themes
 	</div>
-
-	<div class="panel-body">
 		<div class="row">
   			<div class="col-sm-6 col-md-4">
+        <div align="center">
     			<div class="thumbnail">
-     				<img src="http://placehold.it/200x250" alt="theme 1">
-      				<div class="caption" style = "text-align:center">
-        				<h3>Theme 1</h3>
-        				<p>default theme</p>
-        				<p><a href="#" class="btn btn-primary" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
+            <div class="themeImg">
+     				 <img ng-src="{{vm.currentTheme.imageUrl}}"
+                  title="{{tip.themeName}}">
+            </div>
+      				<div class="caption" style="text-align:center">
+        				<h3>{{vm.currentTheme.themeName}}</h3>
+        				<p>{{vm.currentTheme.themeInfo}}</p>
+        				<p> 
+                  <a href="#" class="btn btn-default" role="button">Select</a>
+                </p>
       				</div>
    			 	</div>
-  			</div>
-  			<div class="col-sm-6 col-md-4">
-    			<div class="thumbnail">
-     				<img src="http://placehold.it/200x250" alt="theme 2">
-      				<div class="caption" style = "text-align:center">
-        				<h3>Theme 2</h3>
-        				<p>sunset theme</p>
-        				<p><a href="#" class="btn btn-primary" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-      				</div>
-   			 	</div>
-  			</div>
-  			<div class="col-sm-6 col-md-4">
-    			<div class="thumbnail">
-     				<img src="http://placehold.it/200x250" alt="theme 3">
-      				<div class="caption" style = "text-align:center">
-        				<h3>Theme 3</h3>
-        				<p>beach theme</p>
-        				<p><a href="#" class="btn btn-primary" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-      				</div>
-   			 	</div>
-  			</div>
-  			<div class="col-sm-6 col-md-4">
-    			<div class="thumbnail">
-     				<img src="http://placehold.it/200x250" alt="theme 4">
-      				<div class="caption" style = "text-align:center">
-        				<h3>Theme 4</h3>
-        				<p>mountain theme</p>
-        				<p><a href="#" class="btn btn-primary" role="button">Preview</a> <a href="#" class="btn btn-default" role="button">Select</a></p>
-      				</div>
-   			 	</div>
-  			</div>
+          </div>
+			</div>
 		</div>
-	</div>
+    <div class="row" id="NextBackBtn"> 
+      <button class="btn btn-primary-nextBack"  ng-click="prevPage()">Prev</button>
+      <button class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
+  </div>
 </div>
 
