@@ -54,8 +54,8 @@
 		</div>
 	</div>
 	<div class="row" id="NextBackBtn"> 
-		<button class="btn btn-primary-nextBack"  ng-click="prevPage()">Prev</button>
-		<button class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
+		<button ng-hide="vm.noPrev" class="btn btn-primary-nextBack"  ng-click="prevPage()">Prev</button>
+		<button ng-hide="vm.noNext" class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
 	</div>
 </div>
 	
