@@ -1,0 +1,13 @@
+Uke - 2.23 - shane
+
+productResourceMock
+-added a few new tips
+-minor text changes to make screen display consistent
+
+app.css
+-added branded background image to begin experimenting with themes
+-commented out gradient css
+
+
+
+
