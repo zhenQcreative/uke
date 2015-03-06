@@ -1,3 +1,5 @@
+<link ng-href="{{selectedTheme}}" rel="stylesheet">
+
 <div id="themes">
   <div id="themeTitle">
 		Themes
@@ -14,7 +16,7 @@
         				<h3>{{vm.currentTheme.themeName}}</h3>
         				<p>{{vm.currentTheme.themeInfo}}</p>
         				<p> 
-                  <a href="#" class="btn btn-default" role="button">Select</a>
+                  <a class="btn btn-default" role="button" ng-click="selectTheme(vm.currentTheme)">Select</a>
                 </p>
       				</div>
    			 	</div>
@@ -22,8 +24,8 @@
 			</div>
 		</div>
     <div class="row" id="NextBackBtn"> 
-      <button class="btn btn-primary-nextBack"  ng-click="prevPage()">Prev</button>
-      <button class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
+      <button ng-hide="vm.noPrev" class="btn btn-primary-nextBack"  ng-click="prevPage()">Prev</button>
+      <button ng-hide="vm.noNext" class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
   </div>
 </div>
 

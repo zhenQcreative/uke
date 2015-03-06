@@ -27,13 +27,29 @@
 			//console.log("vm.currentTheme", vm.currentTheme);
 		});
 
+		//start the page with no previous page buton
+		vm.noPrev = true;
+
 		//go to next array of data
 		$scope.nextPage = function(){
 			//console.log("in nextPage");
 
+			//turn on both button when there is pages before or after this page
+      		vm.noNext = false;
+      		vm.noPrev = false;
+
 			//as long as current page number is less than length of array of data
     		if (vm.currentPage < vm.themes.length-1) {
     			vm.currentPage++; //increment forward 1	
+
+    			//turn off next button when there is no next,
+  				//which is the last page
+  				if(vm.currentPage == vm.themes.length-1)
+  				{
+  					vm.noNext = true;
+  					vm.noPrev = false; //keep prev button on.
+  				}
+
       			//console.log("count",vm.currentPage);
       			themeResource.query(function(data){
       				//console.log("data next", data[vm.currentPage]);
@@ -47,14 +63,26 @@
   		$scope.prevPage = function() {
     		//console.log("in prevPage");
 
+    		//turn on both button when there is pages before or after this page
+      		vm.noNext = false;
+      		vm.noPrev = false;
+
     		//as long as current page number not less than 0
     		if (vm.currentPage > 0) {
     			vm.currentPage--; //increment backward 1
-      			//console.log("count",vm.currentPage);
-      			themeResource.query(function(data){
-      				//console.log("data prev", data[vm.currentPage]);
-					return vm.currentTheme = data[vm.currentPage];
-				});
+
+    			//turn off prev button when current page number is 0,
+  				//which is the first page.
+  				if(vm.currentPage == 0){
+  					vm.noPrev = true;
+  				}
+
+    			//console.log("count",vm.currentPage);
+
+    			themeResource.query(function(data){
+    				//console.log("data prev", data[vm.currentPage]);
+				    return vm.currentTheme = data[vm.currentPage];
+			    });
     		}
   		};
 
@@ -69,9 +97,18 @@
   			//get the exact array of data
   			themeResource.query(function(data){
   				//console.log("data prev", data[vm.currentPage]);
-				return vm.currentTheme = data[vm.currentPage];
-			});
+  				return vm.currentTheme = data[vm.currentPage];
+  			});
   		} 
+
+      //sets your theme
+      vm.permTheme = "css/beachVacation.css";
+      
+      $scope.selectTheme = function(item){
+        console.log("what selectTheme", item);
+         $scope.selectedTheme = item.themeCSS;
+         vm.permTheme = $scope.selectedTheme;
+      }
 	} 
 
 }());

@@ -45,21 +45,21 @@
 
       			//console.log("count",vm.currentPage);
 
-      			tipResource.query(function(data){
+      		tipResource.query(function(data){
 
-      				//turn off next button when there is no next,
-      				//which is the last page
-      				if(vm.currentPage == vm.tips.length-1)
-      				{
-      					vm.noNext = true;
-      					vm.noPrev = false; //keep prev button on.
-      				}
+    				//turn off next button when there is no next,
+    				//which is the last page
+    				if(vm.currentPage == vm.tips.length-1)
+    				{
+    					vm.noNext = true;
+    					vm.noPrev = false; //keep prev button on.
+    				}
 
-      				//console.log("data next", data[vm.currentPage]);
+      			//console.log("data next", data[vm.currentPage]);
 
-      				//return current tip value
-					return vm.currentTip = data[vm.currentPage];
-				});
+      			//return current tip value
+  					return vm.currentTip = data[vm.currentPage];
+    			});
     		}
     		
   		};
@@ -77,19 +77,19 @@
     		if (vm.currentPage > 0) {
     			vm.currentPage--; //increment backward 1
       			//console.log("count",vm.currentPage);
-      			tipResource.query(function(data){
+      		tipResource.query(function(data){
 
-      				//turn off prev button when current page number is 0,
-      				//which is the first page.
-      				if(vm.currentPage == 0){
-      					vm.noPrev = true;
-      				}
+    				//turn off prev button when current page number is 0,
+    				//which is the first page.
+    				if(vm.currentPage == 0){
+    					vm.noPrev = true;
+    				}
 
-      				//console.log("data prev", data[vm.currentPage]);
+    				//console.log("data prev", data[vm.currentPage]);
 
-      				//return current tip value
-					return vm.currentTip = data[vm.currentPage];
-				});
+    				//return current tip value
+  					return vm.currentTip = data[vm.currentPage];
+				  });
     		}
   		};
 
