@@ -1569,11 +1569,11 @@
 			},
 			{"patternId": 20,
 			 "patternName": "5th Position",
-			 "patternTitle": "E Major Pentatonic",
+			 "patternTitle": "D Major Pentatonic",
 			 "patternStyle": "5",			 
-			 "chordGroup": "E",
+			 "chordGroup": "D",
 			 "image1Title": "5th Position",
-			 "imageUrl1": "images/patterns/Pentatonic_EMaj5.png",
+			 "imageUrl1": "images/patterns/Pentatonic_DMaj5.png",
 			},
 			{"patternId": 21,
 			 "patternName": "1st Position",
@@ -2114,7 +2114,7 @@ var improv2 = [
 			},
 			{"tipId": 8,
 			 "tipName": "Uke History",
-			 "tipInfo": "The Ukelele is the beloved instrument of Hawaiians and laid back pluckers of happy tunes. So easy to pick up and learn, but really hard to put back down. You'll be surprised who has played it.",
+			 "tipInfo": "The Ukelele is the beloved instrument of Hawaiians and laid back pluckers of happy tunes. So easy to pick up and learn, but really hard to put back down once you learn a few songs.",
 			 "tipInfo1": "George Harrison of the Beatles, was said to have traveled with 2 ukes, one for himself and another for anyone he happened to be hanging out with. Jimi Hendrix also enjoyed the little instrument.",
 			 "tipInfo2": "The ukulele originated in the 19th century as a Hawaiian interpretation of the machete, a small guitar-like instrument related to the cavaquinho, timple, braguinha and the rajao, taken to Hawaii by Portuguese immigrants, many from the Macaronesian Islands. It gained great popularity elsewhere in the United States during the early 20th century, and from there spread internationally.",
 			 "tipInfo3": "The ukulele is commonly associated with music from Hawaii where the name roughly translates as jumping flea, perhaps because of the movement of the players fingers. Legend attributes it to the nickname of the Englishman Edward William Purvis, one of King Kalākaua's officers, because of his small size, fidgety manner, and playing expertise.",
@@ -2127,7 +2127,7 @@ var improv2 = [
 			},
 			{"tipId": 9,
 			 "tipName": "About Tabs",
-			 "tipInfo": "Tablature is used to represent music for a specific instrument and is an alternative to standard notation. Basically, it tells you on which string to play a particular note.",
+			 "tipInfo": "Tablature is used to represent music for a specific instrument and is an alternative to standard notation. Tabs show you on which string to play a particular note.",
 			 "tipInfo1": "Tablature has a couple of advantages. First, it is much easier to learn to read than standard notation and much more accessible for those without formal musical training. Second, it tells you on which string to play a particular note. This is particularly important on the ukulele as the strings are tuned so close together and the way in which you play them can change how easy it is to play a tune a great deal.",
 			 "tipInfo2": "Each of the horizontal lines represents a string on the ukulele. However, they are upside down from what you might expect. The top line of the tab is the A string - the one that is closest to the floor when you are playing. The line below that is the E string, the line below that is the C string and the bottom line of the tab is G string.",
 			 "tipInfo3": "The numbers that appear on the tab indicate which string to play and what fret to play it at. A number 1 means that the string indicated on the tab should be played at the first fret. Playing the E string at the first fret gives us an F note. Open strings, meaning strings played without fretting a note at all, are indicated by a 0.",
@@ -2153,6 +2153,26 @@ var improv2 = [
 			}
 		]; 
 
+		//tips collection
+		var themes = [
+			{"themeId": 1,
+			 "themeName": "Zhen Sky",
+			 "themeInfo": "The calming vibe of Zhen.",
+			 "themeCSS": "css/zhenSky.css",
+			 "themeLayout": "beachVacation",
+			 "tags": ["theme", "blue", "Night"],
+			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			},
+			{"themeId": 1,
+			 "themeName": "Beach Vacation",
+			 "themeInfo": "Life's a Beach.",
+			 "themeCSS": "css/beachVacation.css",
+			 "themeLayout": "beachVacation",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/beachVacation.png"
+			}
+		];
+
 		var productUrl = "/api/chords";
 		var tipUrl = "/api/tips";
 		var themeUrl = "/api/themes";
@@ -2166,6 +2186,7 @@ var improv2 = [
 		$httpBackend.whenGET(progUrl).respond(progressions);
 		$httpBackend.whenGET(pattern1Url).respond(improv1);
 		$httpBackend.whenGET(pattern2Url).respond(improv2);
+		$httpBackend.whenGET(themeUrl).respond(themes);
 
 		var editingRegex = new RegExp(productUrl + "/[0-9][0-9]*", '');
 		

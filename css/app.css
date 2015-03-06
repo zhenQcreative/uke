@@ -475,15 +475,23 @@ html, body {
 	color: #333;	
 }
 
-/*----------------------------------**/
+/*--themes--**/
 #themes .panel-heading{
 	background-color: #DA9223;
 	border-color: #DA9223;
 }
-#themes .panel, .thumbnail{
+#themes .thumbnail{
     border-color: #DA9223;
     background-color: transparent;
 }
+
+#themes .caption{
+    border-color: #DA9223;
+    background-color: transparent;
+    margin: -15px;
+
+}
+
 #themes .btn-primary{
 	background-color: #DA9223;
 	border-color: #DA9223;
@@ -491,6 +499,48 @@ html, body {
 #themes .btn-default{
 	/**not sure what color to change to yet**/
 }
+
+
+#themes img{
+	width:50%; 
+	margin: 10px;
+	padding: 0px;
+	max-width: 200px;
+	border: 2px;
+	border-color: #000;
+}
+
+#themeTitle {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Verdana', Sans;
+	font-weight: bold;
+	line-height: 40px;
+	/*float: right; */
+	text-align: center;
+	padding: 0px;
+	margin:5px;
+}
+
+
+#themeText {
+	font-size: Medium;
+	color: #222;
+	float: left;
+	text-align: left;
+	margin:5px 5px 0px 5px;
+}
+
+/* currebtly superceded by tips .btn-primary above so this really has litle effect */
+#NextBackBtn {
+	font-size:large; 
+	float: right;
+	margin: 0px;
+	padding: 5px;
+	vertical-align: top;
+	color: #333;	
+}
+
 /*----------------------------------**/
 .paddingBottom{
 	padding-bottom: 100%;
