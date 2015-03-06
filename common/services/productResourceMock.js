@@ -2159,17 +2159,49 @@ var improv2 = [
 			 "themeName": "Zhen Sky",
 			 "themeInfo": "The calming vibe of Zhen.",
 			 "themeCSS": "css/zhenSky.css",
-			 "themeLayout": "beachVacation",
+			 "themeLayout": "zhenSky",
 			 "tags": ["theme", "blue", "Night"],
 			 "imageUrl": "images/themes/ZhenSkyThumb.png"
 			},
-			{"themeId": 1,
+			{"themeId": 2,
 			 "themeName": "Beach Vacation",
-			 "themeInfo": "Life's a Beach.",
+			 "themeInfo": "Life's a beach and then you fry.",
 			 "themeCSS": "css/beachVacation.css",
 			 "themeLayout": "beachVacation",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/beachVacation.png"
+			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			},
+			{"themeId": 3,
+			 "themeName": "Black Light",
+			 "themeInfo": "When you're groovy man",
+			 "themeCSS": "css/blackLight.css",
+			 "themeLayout": "Black Light",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			},
+			{"themeId": 4,
+			 "themeName": "Pueblo Clay",
+			 "themeInfo": "South West by South West.",
+			 "themeCSS": "css/puebloClay.css",
+			 "themeLayout": "puebloClay",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			},
+			{"themeId": 5,
+			 "themeName": "Vaped",
+			 "themeInfo": "There's something in the air.",
+			 "themeCSS": "css/vaped.css",
+			 "themeLayout": "vaped",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			},
+			{"themeId": 6,
+			 "themeName": "Green Thumb",
+			 "themeInfo": "A little green is a good thing.",
+			 "themeCSS": "css/greenThumb.css",
+			 "themeLayout": "Green Thumb",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/ZhenSkyThumb.png"
 			}
 		];
 

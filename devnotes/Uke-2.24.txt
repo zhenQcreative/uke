@@ -1,19 +1,21 @@
 Uke - 2.24 - shane
 
+General
+-updated index for new controllers, resources
+
 productResourceMock
 -minor text changes to correct typos and positioning on history and about tabs
 -fixed bug with D 5th position by updating with correct parameters in json collection
 
 app.css
--updated theme styles
+-updated theme styles to make theme selection background semi transparent, color of select button dark with white text, negative margin raising next/back butns 
+-changed background to "vaped"
 
 images
 -added theme backgrounds in themes directory
 
-General
--updated index for new controllers, resources
+app.js
 -updated app.js to call themeListCtl
-
 
 themeView
 -removed panel container to look more consistent 

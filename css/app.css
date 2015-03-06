@@ -1,5 +1,5 @@
 html, body {
-	background: #333 url('../images/backgrounds/ZQLogo_Blue_light.jpg') center 75% no-repeat; 
+	background: #333 url('../images/backgrounds/ZQLogo_skyBlueCouds2.jpg') center 75% no-repeat; 
 	/*background: -webkit-linear-gradient(left top, #E4E1D6 , #D16813);*/ /* For Safari 5.1 to 6.0 */
     /*background: -o-linear-gradient(bottom right, #E4E1D6, #D16813);*/ /* For Opera 11.1 to 12.0 */
     /*background: -moz-linear-gradient(bottom right, #E4E1D6, #D16813);*/ /* For Firefox 3.6 to 15 */
@@ -28,6 +28,7 @@ html, body {
 .panel, .route-blurb-container {
     -webkit-box-shadow: none;
     box-shadow: none;
+    background: rgba(255,255,255,0.5);
 }
 .table > thead > tr > th, .table > thead > tr > td {
     border: 0;
@@ -482,10 +483,13 @@ html, body {
 }
 #themes .thumbnail{
     border-color: #DA9223;
-    background-color: transparent;
+    background: rgba(000,000,000);
+    background: rgba(000,000,000,0.3);
+    /*background-color: transparent;*/
 }
 
 #themes .caption{
+    color: #000;
     border-color: #DA9223;
     background-color: transparent;
     margin: -15px;
@@ -496,10 +500,20 @@ html, body {
 	background-color: #DA9223;
 	border-color: #DA9223;
 }
-#themes .btn-default{
-	/**not sure what color to change to yet**/
+
+#themes .btn-primary-nextBack{
+	background-color: #DA9223;
+	border-color: #DA9223;
+	margin: -20px 0px 10px 0px;
+	color: #fff;
 }
 
+#themes .btn-default{
+	background-color: #222;
+	border-color: #fff;
+	margin: 0px;
+	color: #fff;	
+}
 
 #themes img{
 	width:50%; 
@@ -522,10 +536,9 @@ html, body {
 	margin:5px;
 }
 
-
 #themeText {
 	font-size: Medium;
-	color: #222;
+	color: #000;
 	float: left;
 	text-align: left;
 	margin:5px 5px 0px 5px;
