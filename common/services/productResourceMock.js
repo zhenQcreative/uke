@@ -2169,7 +2169,7 @@ var improv2 = [
 			 "themeCSS": "css/beachVacation.css",
 			 "themeLayout": "beachVacation",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			 "imageUrl": "images/themes/BeachVacationThumb.png"
 			},
 			{"themeId": 3,
 			 "themeName": "Black Light",
@@ -2177,7 +2177,7 @@ var improv2 = [
 			 "themeCSS": "css/blackLight.css",
 			 "themeLayout": "Black Light",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			 "imageUrl": "images/themes/BlackLightThumb.png"
 			},
 			{"themeId": 4,
 			 "themeName": "Pueblo Clay",
@@ -2185,7 +2185,7 @@ var improv2 = [
 			 "themeCSS": "css/puebloClay.css",
 			 "themeLayout": "puebloClay",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			 "imageUrl": "images/themes/PuebloClayThumb.png"
 			},
 			{"themeId": 5,
 			 "themeName": "Vaped",
@@ -2193,7 +2193,7 @@ var improv2 = [
 			 "themeCSS": "css/vaped.css",
 			 "themeLayout": "vaped",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			 "imageUrl": "images/themes/VapedThumb.png"
 			},
 			{"themeId": 6,
 			 "themeName": "Green Thumb",
@@ -2201,7 +2201,7 @@ var improv2 = [
 			 "themeCSS": "css/greenThumb.css",
 			 "themeLayout": "Green Thumb",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			 "imageUrl": "images/themes/GreenThumb.png"
 			}
 		];
 

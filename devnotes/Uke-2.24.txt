@@ -28,5 +28,7 @@ themeView
 -added the same fix code to the themeView and controll
 -now the next and prev button reflects the change
 
+-added images and thumb and css styles for theme selection
+
 
 
