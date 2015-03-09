@@ -102,12 +102,18 @@
   		} 
 
       //sets your theme
-      vm.permTheme = "css/beachVacation.css";
-      
+      //$scope.permTheme = "css/beachVacation.css";
+      //console.log("what permTheme 1:",  $scope.permTheme);
+
       $scope.selectTheme = function(item){
-        console.log("what selectTheme", item);
-         $scope.selectedTheme = item.themeCSS;
-         vm.permTheme = $scope.selectedTheme;
+        console.log("what selectTheme: ", item);
+          for(var i=0; i<vm.themes.length; i++)
+          {
+            if(item == vm.themes[i].themeId){
+              $scope.permTheme = vm.themes[i].themeCSS;
+            }
+          }
+         console.log("what permTheme 2:",  $scope.permTheme);
       }
 	} 
 

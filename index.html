@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html ng-app = "productManagement" ng-controller="ThemeListCtrl as vm">
 <head lang="en">
   <META character="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>Uke 2.24</title>
+  <title>Uke 2.25</title>
   <link rel="shortcut icon" href="favicon.ico"/>
   <link rel="apple-touch-icon" href="apple-touch-icon-iphone-60x60.png">
   <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-ipad-76x76.png">
@@ -17,9 +17,8 @@
   <link href="css/app.css" rel="stylesheet">
   <link href="css/buttons.css" rel="stylesheet">
 
-  <!--mess with style -->
-  <link ng-controller="ThemeListCtrl as vm" 
-        ng-href="{{vm.permTheme}}" rel="stylesheet">
+  <!--Mess with style -->
+  <link ng-href="{{permTheme}}" rel="stylesheet">
 
   <!-- Libraries Scripts -->
   <script src="js/jquery.js"></script>
@@ -63,6 +62,7 @@
 
   <!-- Theme Controllers-->
   <script src="app/themes/themeListCtrl.js"></script>
+
 <!--
   $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
@@ -70,7 +70,8 @@
 -->
 </head>
 
-<body ng-app = "productManagement">
+<body >
+
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<a class="navbar-brand"
@@ -92,7 +93,14 @@
           <li><a ui-sref="progView">Progressions</a></li>
           <li><a ui-sref="improv1View">Improv</a></li> 
 					<li><a ui-sref="tipsList">Tips</a></li>
-					<li><a ui-sref="Themes">Themes</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Themes <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li ng-repeat="theme in vm.themes"><a ng-click="selectTheme(theme.themeId)">{{theme.themeName}}</a></li>
+              <li class="divider"></li>
+              <li><a ui-sref="Themes">Themes Preview</a></li>
+            </ul>
+          </li>
 				</ul>
 			</div>
 		</div>

@@ -1,5 +1,4 @@
-<link ng-href="{{selectedTheme}}" rel="stylesheet">
-
+<link ng-href="{{permTheme}}" rel="stylesheet">
 <div id="themes">
   <div id="themeTitle">
 		Themes
@@ -16,7 +15,7 @@
         				<h3>{{vm.currentTheme.themeName}}</h3>
         				<p>{{vm.currentTheme.themeInfo}}</p>
         				<p> 
-                  <a class="btn btn-default" role="button" ng-click="selectTheme(vm.currentTheme)">Select</a>
+                  <a class="btn btn-default" role="button" ng-click="selectTheme(vm.currentTheme.themeId)">Preview</a>
                 </p>
       				</div>
    			 	</div>

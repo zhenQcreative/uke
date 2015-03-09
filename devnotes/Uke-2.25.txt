@@ -1,0 +1,12 @@
+Uke - 2.25 - jessica
+
+THEMES
+-themes works now...
+-theme selection works from dropdown bar on index page
+-theme page is used for previewing for now, no permenant solution right now
+
+CSS
+-tweeked some app.css code
+-images are responsive
+
+

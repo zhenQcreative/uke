@@ -1,31 +1,31 @@
 <div class="panel panel-primary" id="patternChords">
 	<div class="panel-body">
 		<table class="table">
-				<td class="col-xs-1">
-						<div id="patternHdr">
-							Maj
-						</div>
-						<ul >			
-							<li >
-								 <a ng-class="active('1')" ng-click="selectStyle('1', vm.currentPatterns.chordGroup)">1</a>
-							</li>
-							<li >
-								 <a ng-class="active('2')" ng-click="selectStyle('2', vm.currentPatterns.chordGroup)">2</a>
-							</li>
-							<li >
-								 <a ng-class="active('3')" ng-click="selectStyle('3', vm.currentPatterns.chordGroup)">3</a>
-							</li>
-							<li >
-								 <a ng-class="active('4')" ng-click="selectStyle('4', vm.currentPatterns.chordGroup)">4</a>
-							</li>
-							<li >
-								 <a ng-class="active('5')" ng-click="selectStyle('5', vm.currentPatterns.chordGroup)">5</a>
-							</li>
-						</ul>
+			<td class="col-xs-1">
+				<div id="patternHdr">
+					Maj
+				</div>
+					<ul >			
+						<li >
+							 <a ng-class="active('1')" ng-click="selectStyle('1', vm.currentPatterns.chordGroup)">1</a>
+						</li>
+						<li >
+							 <a ng-class="active('2')" ng-click="selectStyle('2', vm.currentPatterns.chordGroup)">2</a>
+						</li>
+						<li >
+							 <a ng-class="active('3')" ng-click="selectStyle('3', vm.currentPatterns.chordGroup)">3</a>
+						</li>
+						<li >
+							 <a ng-class="active('4')" ng-click="selectStyle('4', vm.currentPatterns.chordGroup)">4</a>
+						</li>
+						<li >
+							 <a ng-class="active('5')" ng-click="selectStyle('5', vm.currentPatterns.chordGroup)">5</a>
+						</li>
+					</ul>
 
-					<div id="patternHdr">
-						Min
-					</div>
+				<div id="patternHdr">
+					Min
+				</div>
 					<ul >			
 						<li >
 							 <a ng-class="active('m1')" ng-click="selectStyle('m1', vm.currentPatterns.chordGroup)">1</a>
@@ -43,19 +43,19 @@
 							 <a ng-class="active('m5')" ng-click="selectStyle('m5', vm.currentPatterns.chordGroup)">5</a>
 						</li>
 					</ul>
-				</td>				
-				<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
-					<div>
-						<img ng-src="{{vm.currentPatterns.imageUrl1}}"
-							 title="{{vm.currentPatterns.patternName}}">
-					</div>
-					<div class="row" id="patternTitle">
-						<div><span>{{vm.currentPatterns.patternName}}</span></div>
-						<div><span>{{vm.currentPatterns.patternTitle}}</span></div>
-					</div>
-				</td>
-			</table>
-		</div>
+			</td>				
+			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
+				<div>
+					<img ng-src="{{vm.currentPatterns.imageUrl1}}"
+						 title="{{vm.currentPatterns.patternName}}">
+				</div>
+				<div class="row" id="patternTitle">
+					<div><span>{{vm.currentPatterns.patternName}}</span></div>
+					<div><span>{{vm.currentPatterns.patternTitle}}</span></div>
+				</div>
+			</td>
+		</table>
+	</div>
 		<div class = "row" id="patternNav"> 
 			<div ng-repeat="chord in vm.filteredChords">
 				<div class = "col-xs-1">
@@ -63,5 +63,4 @@
 				   ng-click="selectChord(chord)">{{chord.chordGroup}}</a> </div>
 			</div>
 		</div>
-	</div>
 </div>
