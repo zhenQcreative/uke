@@ -8,7 +8,7 @@
 
  	function ProgressionCtrl($scope, progressionResource){
 
- 		console.log("inside function ProgressionCtrl in progViewCtrl.js")
+ 		//console.log("inside function ProgressionCtrl in progViewCtrl.js")
 
 	    var vm = this;
 	   	
@@ -50,8 +50,8 @@
 			        return "active";
 			        break;
 			    case vm.currentChords.progStyle:
-			    	console.log("active:", item);
-			    	console.log("active:", vm.currentChords.progStyle);
+			    	//console.log("active:", item);
+			    	//console.log("active:", vm.currentChords.progStyle);
 			        return "active";
 			        break;
 			    default:

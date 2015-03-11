@@ -36,7 +36,7 @@
 				//chords collection
 		var chords = [
 			{"chordId": 1,
-			 "chordName": "A",
+			 "chordName": "maj",
 			 "chordGroup": "A",
 			 "imageUrl": "images/chords/Ukulele_A.png",
 			 "sharpUrl": "images/chords/Ukulele_AsharpBflat.png",
@@ -106,7 +106,7 @@
 			 "flatUrl": "images/chords/Ukulele_Ginv2sharpAinv2flat.png"
 			},
 			{"chordId": 11,
-			 "chordName": "B",
+			 "chordName": "maj",
 			 "chordGroup": "B",
 			 "imageUrl": "images/chords/Ukulele_B.png",
 			 "sharpUrl": "images/chords/Ukulele_C.png",
@@ -176,7 +176,7 @@
 			 "flatUrl": "images/chords/Ukulele_Ainv2sharpBinv2flat.png"
 			},
 			{"chordId": 21,
-			 "chordName": "C",
+			 "chordName": "maj",
 			 "chordGroup": "C",
 			 "imageUrl": "images/chords/Ukulele_C.png",
 			 "sharpUrl": "images/chords/Ukulele_CsharpDflat.png",
@@ -246,7 +246,7 @@
 			 "flatUrl": "images/chords/Ukulele_Binv2.png"
 			},
 			{"chordId": 31,
-			 "chordName": "D",
+			 "chordName": "maj",
 			 "chordGroup": "D",
 			 "imageUrl": "images/chords/Ukulele_D.png",
 			 "sharpUrl": "images/chords/Ukulele_DsharpEflat.png",
@@ -316,7 +316,7 @@
 			 "flatUrl": "images/chords/Ukulele_Cinv2sharpDinv2flat.png"
 			},
 			{"chordId": 41,
-			 "chordName": "E",
+			 "chordName": "maj",
 			 "chordGroup": "E",
 			 "imageUrl": "images/chords/Ukulele_E.png",
 			 "sharpUrl": "images/chords/Ukulele_F.png",
@@ -386,7 +386,7 @@
 			 "flatUrl": "images/chords/Ukulele_Dinv2sharpEinv2flat.png"
 			},
 			{"chordId": 51,
-			 "chordName": "F",
+			 "chordName": "maj",
 			 "chordGroup": "F",
 			 "imageUrl": "images/chords/Ukulele_F.png",
 			 "sharpUrl": "images/chords/Ukulele_FsharpGflat.png",
@@ -456,7 +456,7 @@
 			 "flatUrl": "images/chords/Ukulele_Einv2.png"
 			},
 			{"chordId": 61,
-			 "chordName": "G",
+			 "chordName": "maj",
 			 "chordGroup": "G",
 			 "imageUrl": "images/chords/Ukulele_G.png",
 			 "sharpUrl": "images/chords/Ukulele_GsharpAflat.png",

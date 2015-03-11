@@ -15,10 +15,10 @@
 						 title="{{vm.currentChord.chordName}}">
 					<img ng-if="vm.showFlat"
 						 ng-src="{{vm.currentChord.flatUrl}}"
-						 	title="{{selected.chordName}}">
+						 	title="{{vm.currentChord.chordName}}">
 					<img ng-if="vm.showSharp"
 						 ng-src="{{vm.currentChord.sharpUrl}}"
-						 	title="{{selected.chordName}}">
+						 	title="{{vm.currentChord.chordName}}">
 				</div>
 
 				<div class = "row" id="sharpFlatNav">
@@ -34,18 +34,18 @@
 	</div>
 	<div class = "row" id="chordNav">
 		<div class = "col-xs-1">
-		<a ng-class="active('A')" ng-click="goToChords('A')">A</a> </div>
+		<a ng-class="active('A')" ng-click="goToChords('A', vm.currentChord.chordName)">A</a> </div>
 		<div class = "col-xs-1">
-		<a ng-class="active('B')" ng-click="goToChords('B')" >B</a> </div>
+		<a ng-class="active('B')" ng-click="goToChords('B', vm.currentChord.chordName)" >B</a> </div>
 		<div class = "col-xs-1">
-		<a ng-class="active('C')" ng-click="goToChords('C')" >C</a> </div>
+		<a ng-class="active('C')" ng-click="goToChords('C', vm.currentChord.chordName)" >C</a> </div>
 		<div class = "col-xs-1">
-		<a ng-class="active('D')" ng-click="goToChords('D')" >D</a> </div>
+		<a ng-class="active('D')" ng-click="goToChords('D', vm.currentChord.chordName)" >D</a> </div>
 		<div class = "col-xs-1">
-		<a ng-class="active('E')" ng-click="goToChords('E')" >E</a> </div>
+		<a ng-class="active('E')" ng-click="goToChords('E', vm.currentChord.chordName)" >E</a> </div>
 		<div class = "col-xs-1">
-		<a ng-class="active('F')" ng-click="goToChords('F')" >F</a> </div>
+		<a ng-class="active('F')" ng-click="goToChords('F', vm.currentChord.chordName)" >F</a> </div>
 		<div class = "col-xs-1">
-		<a ng-class="active('G')" ng-click="goToChords('G')" >G</a> </div>
+		<a ng-class="active('G')" ng-click="goToChords('G', vm.currentChord.chordName)" >G</a> </div>
 	</div>
 </div>

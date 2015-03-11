@@ -93,7 +93,7 @@
 		//---(in this case whatever matches 'name')						//
 		//---it fills the side buttons									//
 		//-------------------------------------------------------------**/
-  		$scope.goToChords = function(name){
+  		$scope.goToChords = function(name, item){
   			//get the exact array of data
 				var chordsArray = []; //temp array
 				var num = 0;
@@ -106,7 +106,7 @@
 						num++;
 						//checking chordName is same as 'name'
 						//this gets a chord (the major chord) that match the one selected
-						if(vm.chords[i].chordName === name){
+						if(vm.chords[i].chordName === item){
 							//set the vm.currentChord with the first data from selected data
 							//gets a array of data (name value pairs)
 							//this allow first chord's image to show

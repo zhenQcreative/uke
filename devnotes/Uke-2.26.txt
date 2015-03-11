@@ -1,0 +1,9 @@
+Uke - 2.25 - jessica
+
+CSS
+-changed the color in one of the circular button on welcome page
+-changed the improv's side button padding
+
+CHORD
+-fixed the current chord it's on, when bottom buttons are pressed
+
