@@ -281,7 +281,7 @@ html, body {
 	position: relative;
 }
 #patternChords img {
- 	width: 100%; /*this makes the image size responsive*/
+ 	width: 85%; /*this makes the image size responsive*/
  	margin:10px 10px 0px 10px;
  	/*vertical-align: center; */
  	/*position: relative;*/
