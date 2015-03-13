@@ -97,7 +97,7 @@
   		$scope.goToPage = function(numb){
   			//console.log("numb", numb);
   			if (numb != 0){
-  				vm.currentPage = numb-1; //subract one because first array is 0
+  				vm.currentPage = numb-1; //subract one because first array element is 0
   			}else{
   				vm.currentPage = 0;
   			}
