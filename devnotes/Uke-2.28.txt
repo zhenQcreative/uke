@@ -1,0 +1,13 @@
+Uke - 2.28 - Jessica
+
+TIPS
+-added a Main button to return to main list of catagory of tips page
+-tweek the tipListCtrl page to make sure the Prev and Next button show up correctlu
+-now goes to the current page of the tip you selected
+-knows if there are pages before and/or after
+-keeps an array of the tips from the catagory you selected, 
+so you may scroll through it
+
+SHANE
+-made the beat selection button working
+
