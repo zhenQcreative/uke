@@ -42,9 +42,11 @@
   <script src="common/services/improv1Resource.js"></script>
   <script src="common/services/improv2Resource.js"></script>
   <script src="common/services/themeResource.js"></script>    
+  <script src="common/services/beatResource.js"></script>
   <script src="common/services/progressionResource.js"></script>
   <script src="common/services/productResourceMock.js"></script>
   <script src="common/services/productService.js"></script>
+  
 
 
   <!-- Chord View Controllers-->
@@ -63,6 +65,9 @@
 
   <!-- Theme Controllers-->
   <script src="app/themes/themeListCtrl.js"></script>
+
+  <!-- Beat Controllers-->
+  <script src="app/beats/beatViewCtrl.js"></script>
 
 <!--
   $('.navbar-collapse a').click(function(){
@@ -92,8 +97,9 @@
 				<ul class="nav navbar-nav">
 					<li><a ui-sref="chordView">Chords</a></li>
           <li><a ui-sref="progView">Progressions</a></li>
-          <li><a ui-sref="improv1View">Improv</a></li> 
-          <li><a ui-sref="tipsView">Tips</a></li>
+          <li><a ui-sref="improv1View">Improv</a></li>
+          <li><a ui-sref="beatView">Beats</a></li> 
+           <li><a ui-sref="tipsView">Tips</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Themes <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">

@@ -331,6 +331,108 @@ html, body {
 	border-radius: 100px;
 }
 
+/**--------------Beats VIEW------------------**/
+#patternChords {
+	background: transparent;
+	text-decoration: none;
+	border: none;
+	margin-top: -10px;
+}
+
+#patternChords .panel-body{
+	padding: 0px;
+	margin:2px;
+	border: none;
+}
+
+#patternChords td{
+	padding: 0px;
+	margin:2px;
+	border-top: none;
+}
+
+#patternChords a {
+	border-radius: 10px 10px 0px 0px;
+	display: inline-block;
+	margin-right: 5px;
+	min-width: 50px;
+	outline: 1px;
+	position: relative;
+	text-decoration: none;
+}
+
+#patternChords .active{
+	background: #DA9223;
+	color: #fff;	
+}
+
+#patternChords ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#patternChords li a {
+	background: #F4E0CB;
+	color: #CF6314;
+	border-radius: 30px;
+	min-width: 45px;
+	max-width: 65px;
+	padding: 5px;
+	margin: 2px;
+	text-align: center;
+	position: relative;
+}
+#patternChords img {
+ 	width: 85%; /*this makes the image size responsive*/
+ 	margin:10px 10px 0px 10px;
+ 	/*vertical-align: center; */
+ 	/*position: relative;*/
+}
+
+#patternTitle{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Verdana', Sans;
+	font-weight: strong;
+	/*vertical-align: bottom;*/
+	margin-left: 17%;
+	/*margin-right: 25%;*/
+	/*min-width: 350px;*/
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 0%;
+	position: relative;
+}
+
+#patternHdr{
+	color: #000;
+	font-size: 20px;
+	font-family: 'Verdana', Sans;
+	font-weight: strong;
+	padding: 5px 5px 5px 7px;
+	position: relative;
+}
+
+
+#patternNav{
+	vertical-align: bottom;
+	margin-left: 15%;
+	margin-top: -2%;
+	/*margin-right: 25%;*/
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+#patternNav a{
+	background: #F4E0CB;
+	color: #CF6314;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+
 /**--------------MAIN VIEW------------------**/
 #mainView {
 	

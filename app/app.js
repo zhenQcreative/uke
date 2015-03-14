@@ -90,6 +90,12 @@
 							controller: "ThemeListCtrl as vm"
 						})
 
+						.state("beatView", {
+							url: "/beats",
+							templateUrl: "app/beats/beatView.html",
+							controller: "BeatViewCtrl as vm"
+						})
+
 				}]
 
 	);
