@@ -8,6 +8,10 @@ TIPS
 -keeps an array of the tips from the catagory you selected, 
 so you may scroll through it
 
+CSS
+-fixed the blue outline around buttons in TIPS
+-fixed pueblo gray button background, transparency issue
+
 SHANE
 -made the beat selection button working
 
