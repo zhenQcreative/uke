@@ -1,0 +1,27 @@
+<div class="panel panel-primary" id="altChords">
+	<div class="panel-body">
+		<table class="table">
+			<td class="col-xs-1">
+				<ul ng-repeat="beat in vm.filteredBeats">
+					<li >
+						 <a ng-class="active(beat)" ng-click="selectBeat(beat)">{{beat.beatName}}</a>
+					</li>
+				</ul>
+			</td>
+			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
+				<div>
+					<img ng-src="{{vm.currentBeat.imageUrl}}"
+						 title="{{vm.currentBeat.beatName}}">
+				 </div>
+		 	</td>
+		</table>
+	</div>
+	<div class = "row" id="progNav">
+		<div class = "col-xs-1">
+			<a ng-class="active('Folk')" ng-click="goToBeat('Folk', vm.currentBeat.beatName)">Folk</a> 
+		</div>
+		<div class = "col-xs-1">
+			<a ng-class="active('Blues')" ng-click="goToBeat('Blues', vm.currentBeat.beatName)">Blues</a> 
+		</div>
+	</div>
+</div>

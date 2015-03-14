@@ -7,33 +7,8 @@
 						["ngMockE2E"]);
 	
 	app.run(function ($httpBackend){
-
-		//old tips collection
-		var products = [
-			{"tipId": 1,
-			 "tipName": "Product 1",
-			 "tipInfo": "This is how you care for the instrument...",
-			 "tipCatagory":"Instrument",
-			 "tags": ["Care", "Instrument"],
-			 "imageUrl": "images/ukelele_humidifier.png"
-			},
-			{"tipId": 2,
-			 "tipName": "Product 2",
-			 "tipInfo": "This is how you do finger picking...",
-			 "tipCatagory":"Lessons",
-			 "tags": ["Skills", "Picking"],
-			 "imageUrl": "images/a_hand2.jpg.png"
-			},
-			{"tipId": 3,
-			 "tipName": "Product 3",
-			 "tipInfo": "Some information about strumming here...",
-			 "tipCatagory":"Lessons",
-			 "tags": ["Skills", "Strumming"],
-			 "imageUrl": "images/strumming-pattern-1.png"
-			}
-		];
 		
-				//chords collection
+		//chords collection
 		var chords = [
 			{"chordId": 1,
 			 "chordName": "maj",
@@ -2205,12 +2180,66 @@ var improv2 = [
 			}
 		];
 
+var beats = [
+			{"beatId": 1,
+			 "beatName": "Beat 1",
+			 "beatTitle": "Folk Beat 1",
+			 "beatStyle": "Folk",			 
+			 "beatGroup": "Folk",
+			 "image1Title": "Folk Beat 1",
+			 "imageUrl": "images/chords/Ukulele_A.png",
+			 "imageUrl1": "images/beats/FolkBeat1Img.png",
+			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"beatId": 2,
+			 "beatName": "Beat 2",
+			 "beatTitle": "Folk Beat 2",
+			 "beatStyle": "Folk",			 
+			 "beatGroup": "Folk",
+			 "imageUrl": "images/chords/Ukulele_B.png",
+			 "image1Title": "Folk Beat 2",
+			 "imageUrl1": "images/beats/FolkBeat1Img.png",
+			 "beatAudioUrl": "audio/beats/bluesBeat_12barx3.m4a"
+			},
+			{"beatId": 3,
+			 "beatName": "Beat 3",
+			 "beatTitle": "Folk Beat 3",
+			 "beatStyle": "Folk",			 
+			 "beatGroup": "Folk",
+			 "image1Title": "Folk Beat 3",
+			 "imageUrl": "images/chords/Ukulele_C.png",
+			 "imageUrl1": "images/beats/FolkBeat1Img.png",
+			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"beatId": 4,
+			 "beatName": "Beat 1",
+			 "beatTitle": "12 Bar / 3 times",
+			 "beatStyle": "Blues",			 
+			 "beatGroup": "Blues",
+			 "image1Title": "Blues Beat 1",
+			 "imageUrl": "images/chords/Ukulele_D.png",
+			 "imageUrl1": "images/beats/FolkBeat1Img.png",
+			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"beatId": 5,
+			 "beatName": "Beat 2",
+			 "beatTitle": "12 Bar / 3 times",
+			 "beatStyle": "Blues",			 
+			 "beatGroup": "Blues",
+			 "image1Title": "Blues Beat 1",
+			 "imageUrl": "images/chords/Ukulele_E.png",
+			 "imageUrl1": "images/beats/FolkBeat1Img.png",
+			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			}
+		];		
+
 		var productUrl = "/api/chords";
 		var tipUrl = "/api/tips";
 		var themeUrl = "/api/themes";
 		var progUrl = "/api/progressions";
 		var pattern1Url = "/api/improv1";
-		var pattern2Url = "/api/improv2";		
+		var pattern2Url = "/api/improv2";
+		var beatUrl = "/api/beats";			
 
 
 		$httpBackend.whenGET(productUrl).respond(chords);
@@ -2219,6 +2248,7 @@ var improv2 = [
 		$httpBackend.whenGET(pattern1Url).respond(improv1);
 		$httpBackend.whenGET(pattern2Url).respond(improv2);
 		$httpBackend.whenGET(themeUrl).respond(themes);
+		$httpBackend.whenGET(beatUrl).respond(beats);
 
 		var editingRegex = new RegExp(productUrl + "/[0-9][0-9]*", '');
 		
