@@ -1,0 +1,11 @@
+Uke - 2.27 - jessica
+
+CSS
+-add more themes
+-edit styles for Tips main view
+
+TIPS
+-added two views for tips
+-main view with all the catagories and tips that goes with it
+-tip list view for current selected tip
+

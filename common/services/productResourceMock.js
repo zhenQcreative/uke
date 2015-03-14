@@ -7,8 +7,33 @@
 						["ngMockE2E"]);
 	
 	app.run(function ($httpBackend){
+
+		//old tips collection
+		var products = [
+			{"tipId": 1,
+			 "tipName": "Product 1",
+			 "tipInfo": "This is how you care for the instrument...",
+			 "tipCatagory":"Instrument",
+			 "tags": ["Care", "Instrument"],
+			 "imageUrl": "images/ukelele_humidifier.png"
+			},
+			{"tipId": 2,
+			 "tipName": "Product 2",
+			 "tipInfo": "This is how you do finger picking...",
+			 "tipCatagory":"Lessons",
+			 "tags": ["Skills", "Picking"],
+			 "imageUrl": "images/a_hand2.jpg.png"
+			},
+			{"tipId": 3,
+			 "tipName": "Product 3",
+			 "tipInfo": "Some information about strumming here...",
+			 "tipCatagory":"Lessons",
+			 "tags": ["Skills", "Strumming"],
+			 "imageUrl": "images/strumming-pattern-1.png"
+			}
+		];
 		
-		//chords collection
+				//chords collection
 		var chords = [
 			{"chordId": 1,
 			 "chordName": "maj",
@@ -2163,7 +2188,7 @@ var improv2 = [
 			 "imageUrl": "images/themes/PuebloClayThumb.png"
 			},
 			{"themeId": 5,
-			 "themeName": "Vaped",
+			 "themeName": "Cloud Chaser",
 			 "themeInfo": "There's something in the air.",
 			 "themeCSS": "css/vaped.css",
 			 "themeLayout": "vaped",
@@ -2177,10 +2202,27 @@ var improv2 = [
 			 "themeLayout": "Green Thumb",
 			 "tags": ["theme", "blue", "Day"],
 			 "imageUrl": "images/themes/GreenThumb.png"
+			},
+			{"themeId": 7,
+			 "themeName": "Maui Sunset",
+			 "themeInfo": "Sun is setting.",
+			 "themeCSS": "css/sunSet.css",
+			 "themeLayout": "Sun Set",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/SunSetThumb.png"
+			},
+			{"themeId": 8,
+			 "themeName": "Stage Right",
+			 "themeInfo": "Give me a spot light here.",
+			 "themeCSS": "css/stageRight.css",
+			 "themeLayout": "Stage Right",
+			 "tags": ["theme", "blue", "Day"],
+			 "imageUrl": "images/themes/StageRightThumb.png"
 			}
 		];
 
-var beats = [
+		//beats collection
+		var beats = [
 			{"beatId": 1,
 			 "beatName": "Beat 1",
 			 "beatTitle": "Folk Beat 1",
@@ -2239,7 +2281,7 @@ var beats = [
 		var progUrl = "/api/progressions";
 		var pattern1Url = "/api/improv1";
 		var pattern2Url = "/api/improv2";
-		var beatUrl = "/api/beats";			
+		var beatUrl = "/api/beats";		
 
 
 		$httpBackend.whenGET(productUrl).respond(chords);
@@ -2250,6 +2292,45 @@ var beats = [
 		$httpBackend.whenGET(themeUrl).respond(themes);
 		$httpBackend.whenGET(beatUrl).respond(beats);
 
+		var editingRegex = new RegExp(tipUrl + "/[0-9][0-9]*", '');
+		
+		$httpBackend.whenGET(editingRegex).respond(function (method, url, data){
+			var tip = {"tipId": 0};
+			var parameters = url.split('/');
+			var length = parameters.length;
+			var id = parameters[length - 1];
+
+			if (id > 0){
+				for (var i = 0; i < tips.length; i++){
+					if(tips[i].tipId == id) {
+						tip = tips[i];
+						break;
+					}
+				};
+			}
+			return [200, tip, {}];
+		});
+/*
+		$httpBackend.whenPOST(productUrl).respond(function (method, url, data){
+			var product =  angular.fromJson(data);
+			if (!product.productId){
+				//new product Id
+				product.productId = products[products.length - 1].productId + 1;
+				products.push(product);
+			}
+			else{
+				//update product
+				for (var i = 0; i < products.length; i++) {
+					if (products[i].productId == product.productId){
+						products[i] = product;
+						break;
+					}
+				};
+			}
+			return [200, product, {}];
+		});
+*/
+/*
 		var editingRegex = new RegExp(productUrl + "/[0-9][0-9]*", '');
 		
 		$httpBackend.whenGET(editingRegex).respond(function (method, url, data){
@@ -2287,7 +2368,7 @@ var beats = [
 			}
 			return [200, product, {}];
 		});
-
+*/
 		//Pass through any requests for application files
 		$httpBackend.whenGET(/app/).passThrough();
 
