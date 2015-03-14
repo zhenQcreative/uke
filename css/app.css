@@ -280,6 +280,7 @@ html, body {
 	text-align: center;
 	position: relative;
 }
+
 #patternChords img {
  	width: 85%; /*this makes the image size responsive*/
  	margin:10px 10px 0px 10px;
@@ -396,8 +397,68 @@ html, body {
 	position: relative;
 		
 }
+/**-------------TIP main VIEW--------------**/
+#tipView {
+	background: transparent;
+	text-decoration: none;
+	border: none;
+}
 
-/**--------------TIP VIEW------------------**/
+#tipView .panel-body{
+	padding: 0px;
+	margin: 2px;
+}
+#tipView .discription{
+	padding-left: 15px;
+}
+#tipView .panel-heading {
+	background: #DA9223;
+	width: 100%;
+}
+#tipView .panel-heading span{
+	float: right;
+}
+
+#tipView td{
+	padding: 0px;
+	margin:2px;
+	border-top: none;
+}
+
+#tipView a {
+	border-radius: 10px 10px 0px 0px;
+	display: inline-block;
+	margin-right: 5px;
+	min-width: 50px;
+	outline: 1px;
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+}
+
+#tipView .active{
+	background: #DA9223;
+	color: #fff;
+	border-color: #000;
+
+}
+
+#tipView ul{
+	list-style-type: none;
+	padding: 0px;
+	margin-right: 20px;
+}
+
+#tipView li a {
+	background: #F4E0CB;
+	color: #CF6314;
+	border-radius: 30px;
+	min-width: 100%;
+	padding: 8px;
+	margin: 2px;
+	text-align: center;
+}
+/**--------------TIP List------------------**/
 
 #tips .panel-heading{
 	background-color: #DA9223;

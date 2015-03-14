@@ -2,13 +2,15 @@
 	angular
 			.module("productManagement")
 			.controller("TipListCtrl",
-						["$scope", 
+						["$scope",
+             "tip", 
 						 "tipResource",
 							TipListCtrl]);
 	
-	function TipListCtrl($scope,tipResource){
+	function TipListCtrl($scope,tip,tipResource){
 		var vm = this;
-		
+    vm.currentTip = tip;
+    console.log (vm.currentTip);
 		//populate vm.tip with all the arrays of data arrays
 		//used for finding out vm.tips.length later
 		tipResource.query(function(data){
@@ -19,10 +21,12 @@
 
 		//initialize first page
 		//set current page number (array number) 
-		vm.currentPage = 0;
+    //vm.currentPage = 0;
+		vm.currentPage = tip.tipId - 1;
 		//set first vm.currentTip array data
 		tipResource.query(function(data){
 			vm.currentTip = data[vm.currentPage];
+      vm.currentTip = tip;
 			//console.log("data", data[vm.currentPage]);
 			//console.log("vm.currentTip", vm.currentTip);
 		});

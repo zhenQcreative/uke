@@ -1,50 +1,7 @@
-<div class="panel panel-primary" id="tipView">
-	<div class="panel-body">
-		<table class="table">
-			<td class="col-xs-2">
-				<ul >
-					<li >
-						 <a ng-class="active('Instrument')" ng-click="selectCatagory('Instrument')">Care</a>
-					</li>
-					<li >
-						 <a ng-class="active('History')" ng-click="selectCatagory('History')">History</a>
-					</li>
-					<li >
-						 <a ng-class="active('Lessons')" ng-click="selectCatagory('Lessons')">Lessons</a>
-					</li>
-					<li >
-						 <a ng-class="active('Accessories')" ng-click="selectCatagory('Accessories')">Misc.</a>
-					</li>
-					<li >
-						 <a ng-class="active('Styles')" ng-click="selectCatagory('Styles')">Styles</a>
-					</li>
-					<li >
-						 <a ng-class="active('Songwriting')" ng-click="selectCatagory('Songwriting')">Writing</a>
-					</li>
-				</ul>
-			</td>
-			<td class="col-xs-10 col-sm-8 col-md-8 col-lg-8">
-				<div class="panel panel-primary" 
-					 ng-repeat="tip in vm.filteredTips">
-					<div class="panel-heading"
-						 ng-click = "select(tip)"
-						 ui-sref="tipsList({tipId: tip.tipId})">
-						 	{{tip.tipName}} 
-						 	<span class="glyphicon glyphicon-chevron-right"></span> 
-					</div>
-					<div class="panel-body discription">
-						some temparary tip discription 
-						<!--{{tip.tipDiscription}}-->
-					</div>
-				</div>
-			</td>
-		</table>
-	</div>
-</div>
-<!--
 <div id="tips">
 	<div id="tipTitle"> 
 		{{vm.currentTip.tipName}}
+		{{vm.tipsPass.tipName}}
 	</div>
 	<div id="tipText">
 		<div class="row">
@@ -102,4 +59,4 @@
 		<button ng-hide="vm.noNext" class="btn btn-primary-nextBack"  ng-click="nextPage()">Next</button>
 	</div>
 </div>
--->	
+	

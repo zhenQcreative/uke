@@ -60,10 +60,28 @@
 							controller: "Improv2Ctrl as vm",
 						})
 
-						.state("tipsList", {
+						.state("tipsView", {
 							url: "/tips",
 							templateUrl: "app/tips/tipView.html",
-							controller: "TipListCtrl as vm"
+							controller: "TipViewCtrl as vm"
+						})
+
+						.state("tipsList", {
+							url: "/tips/:tipId",
+							templateUrl: "app/tips/tipList.html",
+							controller: "TipListCtrl as vm",
+							
+							resolve:{
+								tipResource: "tipResource",
+
+								tip: function (tipResource, $stateParams){
+									var tipId = $stateParams.tipId;
+									console.log($stateParams);
+									return tipResource.get(
+										{ tipId: tipId }).$promise;
+								}
+							}
+							
 						})
 
 						.state("Themes", {
