@@ -12,6 +12,8 @@
 
 	    var vm = this;
 
+
+
 	    vm.currentBeat = [];
 
 	    //populate vm.chords with all the arrays of data arrays
@@ -50,6 +52,18 @@
 
 		});
 		//-------------------------------------------------------------**/
+		var playlist1={
+			src: 'http://upload.wikimedia.org/wikipedia/en/d/d0/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg', type: 'audio/ogg', media: '.css.media.query' 
+		};
+		/**handle audio **/
+		// access properties
+  		/*console.log($scope.audio1.network);
+  		console.log($scope.audio1.ended); */ 
+
+  		$scope.mySpecialPlayButton = function () {
+    		$scope.customText = 'I started angular-media-player with a custom defined action!';
+    		$scope.audio1.playPause();
+		};
 
 		//this sets the ng-class to active for side and bottom buttons
     	$scope.active = function(item){

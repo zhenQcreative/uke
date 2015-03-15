@@ -2,26 +2,54 @@
 	<div class="panel-body">
 		<table class="table">
 			<td class="col-xs-1">
-				<ul ng-repeat="beat in vm.filteredBeats">
+				<ul >
 					<li >
-						 <a ng-class="active(beat)" ng-click="selectBeat(beat)">{{beat.beatName}}</a>
+						<a ng-class="active('Hawaii')" ng-click="goToBeat('Hawaii', vm.currentBeat.beatName)">Aloha</a>
 					</li>
-				</ul>
+					<li ><a ng-class="active('Folk')" ng-click="goToBeat('Folk', vm.currentBeat.beatName)">Folk</a>
+					</li>
+					<li >
+						<a ng-class="active('Rock')" ng-click="goToBeat('Rock', vm.currentBeat.beatName)">Rock</a>
+					</li>
+					<li >
+						<a ng-class="active('Country')" ng-click="goToBeat('Country', vm.currentBeat.beatName)">Cntry</a>
+					</li>
+					<li >
+						<a ng-class="active('Blues')" ng-click="goToBeat('Blues', vm.currentBeat.beatName)">Blues</a>
+					</li> 
+					<li >
+						<a ng-class="active('Jazz')" ng-click="goToBeat('Jazz', vm.currentBeat.beatName)">Jazz</a>
+					</li>
+					<li >
+						<a ng-class="active('Ballad')" ng-click="goToBeat('Ballad', vm.currentBeat.beatName)">Ballad</a>
+					</li>
+					<li >
+						<a ng-class="active('R&B')" ng-click="goToBeat('R&B', vm.currentBeat.beatName)">R&B</a>
+					</li>
+					<li >
+						<a ng-class="active('Click')" ng-click="goToBeat('Click', vm.currentBeat.beatName)">Click</a>
+					</li>  
 			</td>
-			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
+			
+			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1" id="progChords">
 				<div>
 					<img ng-src="{{vm.currentBeat.imageUrl}}"
 						 title="{{vm.currentBeat.beatName}}">
 				 </div>
-		 	</td>
+		 	
+			 	<audio media-player="audio1" data-playlist="playlist1">
+					<source src="http://upload.wikimedia.org/wikipedia/en/d/d0/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg" type="audio/ogg">
+				</audio>
+				<span ng-show="audio1.playing">Player status: Playing</span>
+				<span ng-show="!audio1.playing">Player status: Paused</span>
+			</td>
 		</table>
 	</div>
-	<div class = "row" id="progNav">
-		<div class = "col-xs-1">
-			<a ng-class="active('Folk')" ng-click="goToBeat('Folk', vm.currentBeat.beatName)">Folk</a> 
-		</div>
-		<div class = "col-xs-1">
-			<a ng-class="active('Blues')" ng-click="goToBeat('Blues', vm.currentBeat.beatName)">Blues</a> 
+	<div class="row" id="progNav">
+		<div ng-repeat="beat in vm.filteredBeats">
+			<div class = "col-xs-1">
+				<a ng-class="active(beat)" ng-click="selectBeat(beat)">{{beat.beatName}}</a>
+			</div>
 		</div>
 	</div>
 </div>
