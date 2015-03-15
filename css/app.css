@@ -575,6 +575,10 @@ html, body {
 	border-color: #DA9223;
 	margin: 0px 0px 0px 0px;
 }
+#tips .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 #tips .btn-primary-nextBack{
 	background-color: #DA9223;

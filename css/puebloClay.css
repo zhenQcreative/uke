@@ -411,10 +411,14 @@ html, body {
 
 }
 #tips .btn-primary{
-	background: rgba(111,111,111,0.9);
+	background: rgba(111,111,111,0.0);
 	/*border-color: #111;*/
 	border-style: none;
 	margin: 0px 0px 0px 0px;
+}
+#tips .btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 #tips .btn-primary-nextBack{
