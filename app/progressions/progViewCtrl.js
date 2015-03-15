@@ -27,7 +27,7 @@
 
 			for(var i=0; i<vm.progs.length; i++){
 
-				if(vm.progs[i].progStyle === 'Folk 1'){
+				if(vm.progs[i].progStyle === 'Aloha'){
 					chordsArray[num] = data[i];
 					num++;
 					//populate first image by geting array of data (name value pairs)
