@@ -16,6 +16,9 @@ CSS
 IMPROV
 -added new minor pentatonic images and updated productResourceMock
 
+ISSUES
+-fixed some minior issues with buttons
+
 BEATS
 -made the beat selection buttons work
 -added code for media player to beatViewCtrl but it's not working yet
