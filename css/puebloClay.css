@@ -59,8 +59,8 @@ html, body {
 }
 
 #altChords .active{
-	background: #fff;
-	color: #000;
+	background: #DA9223;
+	color: #fff;
 	border-color: #000;
 
 }
@@ -72,8 +72,8 @@ html, body {
 }
 
 #altChords li a {
-	background: rgba(111,111,111,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	border-radius: 30px;
 	min-width: 55px;
 	max-width: 65px;
@@ -99,8 +99,8 @@ html, body {
 }
 
 #chordNav a{
-	background: rgba(055,055,055,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	min-width: 30px;
 	text-align: center;
 	padding: 5px 65% 5px 65%;
@@ -114,8 +114,8 @@ html, body {
 }
 
 #sharpFlatNav a{
-	background: rgba(075,075,075,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	text-align: center;
 	border-radius: 30px;
 	float: center;
@@ -159,8 +159,8 @@ html, body {
 }
 
 #progChords .active{
-	background: #fff;
-	color: #000;	
+	background: #DA9223;
+	color: #fff;	
 }
 
 #progChords ul{
@@ -170,8 +170,8 @@ html, body {
 }
 
 #progChords li a {
-	background: rgba(111,111,111,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	border-radius: 30px;
 	min-width: 65px;
 	max-width: 65px;
@@ -220,8 +220,8 @@ html, body {
 
 
 #progNav a{
-	background: rgba(055,055,055,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	min-width: 30px;
 	text-align: center;
 	padding: 5px 65% 5px 65%;
@@ -259,8 +259,8 @@ html, body {
 }
 
 #patternChords .active{
-	background: #fff;
-	color: #000;	
+	background: #DA9223;
+	color: #fff;	
 }
 
 #patternChords ul{
@@ -270,8 +270,8 @@ html, body {
 }
 
 #patternChords li a {
-	background: rgba(111,111,111,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	border-radius: 30px;
 	min-width: 55px;
 	max-width: 65px;
@@ -280,6 +280,7 @@ html, body {
 	text-align: center;
 	position: relative;
 }
+
 #patternChords img {
  	width: 85%; /*this makes the image size responsive*/
  	margin:10px 10px 0px 10px;
@@ -288,7 +289,7 @@ html, body {
 }
 
 #patternTitle{
-	color: #000;
+	color: #fff;
 	font-size: 20px;
 	font-family: 'Verdana', Sans;
 	font-weight: strong;
@@ -310,6 +311,7 @@ html, body {
 	position: relative;
 }
 
+
 #patternNav{
 	vertical-align: bottom;
 	margin-left: 15%;
@@ -321,13 +323,14 @@ html, body {
 }
 
 #patternNav a{
-	background: rgba(055,055,055,0.9);
-	color: #fff;
+	background: #F4E0CB;
+	color: #CF6314;
 	min-width: 30px;
 	text-align: center;
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+
 /**--------------Beats VIEW------------------**/
 #beatsChords {
 	background: transparent;
@@ -429,6 +432,7 @@ html, body {
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+
 /**--------------MAIN VIEW------------------**/
 #mainView {
 	
@@ -451,20 +455,19 @@ html, body {
 	padding-top: 250%;
 }
 #mainView li a {
-	background: rgba(111,111,111,0.9);
-	border-color: rgba(111,111,111,0.9);
+	background: #F4E0CB;
 	box-shadow: 0 3px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	line-height: 75px;
+	color: #CF6314;
+	line-height: 50px;
 	border-radius: 30px;
-	padding: 55px 400px 55px 25px;
-	margin: 25px;
+	padding: 10px 400px 10px 10px;
+	margin: 10px;
 	text-align: center;
 	position: relative;
 	text-decoration: none;
 }
 #mainView .active{
-	background: rgba(000,000,000,0.9);
+	background: #DA9223;
 	color: #fff;	
 }
 #mainView .logo{
@@ -496,23 +499,80 @@ html, body {
 	position: relative;
 		
 }
+/**-------------TIP main VIEW--------------**/
+#tipView {
+	background: transparent;
+	text-decoration: none;
+	border: none;
+}
 
-/**--------------TIP VIEW------------------**/
+#tipView .panel-body{
+	padding: 0px;
+	margin: 2px;
+}
+#tipView .discription{
+	padding-left: 15px;
+}
+#tipView .panel-heading {
+	background: #DA9223;
+	width: 100%;
+}
+#tipView .panel-heading span{
+	float: right;
+}
+
+#tipView td{
+	padding: 0px;
+	margin:2px;
+	border-top: none;
+}
+
+#tipView a {
+	border-radius: 10px 10px 0px 0px;
+	display: inline-block;
+	margin-right: 5px;
+	min-width: 50px;
+	outline: 1px;
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+}
+
+#tipView .active{
+	background: #DA9223;
+	color: #fff;
+	border-color: #000;
+
+}
+
+#tipView ul{
+	list-style-type: none;
+	padding: 0px;
+	margin-right: 20px;
+}
+
+#tipView li a {
+	background: #F4E0CB;
+	color: #CF6314;
+	border-radius: 30px;
+	min-width: 100%;
+	padding: 8px;
+	margin: 2px;
+	text-align: center;
+}
+/**--------------TIP List------------------**/
 
 #tips .panel-heading{
-	background: rgba(111,111,111,0.9);
-	border-style: none;
-	/*border-color: #111;*/
+	background-color: #DA9223;
+	border-color: #DA9223;
 }
 #tips .panel, .panel-primary, .route-blurb-container {
-	border-style: none;
-	/*border-color: #111;*/
+	border-color: #DA9223;
 
 }
 #tips .btn-primary{
-	background: rgba(111,111,111,0.0);
-	/*border-color: #111;*/
-	border-style: none;
+	background-color: #DA9223;
+	border-color: #DA9223;
 	margin: 0px 0px 0px 0px;
 }
 #tips .btn:focus {
@@ -521,7 +581,8 @@ html, body {
 }
 
 #tips .btn-primary-nextBack{
-	background: rgba(055,055,055,0.9);
+	background-color: #DA9223;
+	border-color: #DA9223;
 	margin: -20px 0px 10px 0px;
 	color: #fff;
 }
@@ -533,7 +594,7 @@ html, body {
 
 #tips img{
 	float: right;
-	width:50%; 
+	width:65%; 
 	margin: 10px;
 	padding: 0px;
 	max-width: 200px;
@@ -547,7 +608,7 @@ html, body {
 }
 
 #tipTitle {
-	color: #000;
+	color: #fff;
 	font-size: 30px;
 	font-family: 'Verdana', Sans;
 	font-weight: bold;
@@ -569,11 +630,12 @@ html, body {
 /**--------------THEMES VIEW------------------**/
 #themes .panel-heading{
 	background-color: #DA9223;
-	border-color: #000;
+	border-color: #DA9223;
 }
 #themes .thumbnail{
-    border-color: #000;
-    background: rgba(000,000,000,0.2);
+    border-color: #DA9223;
+    background: rgba(000,000,000);
+    background: rgba(000,000,000,0.3);
 }
 
 #themes .caption{
@@ -590,16 +652,17 @@ html, body {
 }
 
 #themes .btn-primary-nextBack{
-	background: rgba(055,055,055,0.9);
+	background-color: #DA9223;
+	border-color: #DA9223;
 	margin: -20px 0px 10px 0px;
 	color: #fff;
 }
 
 #themes .btn-default{
-	background-color: #fff;
-	border-color: #000;
+	background-color: #222;
+	border-color: #fff;
 	margin: 0px;
-	color: #000;	
+	color: #fff;	
 }
 
 #themes img{
@@ -612,7 +675,7 @@ html, body {
 }
 
 #themeTitle {
-	color: #000;
+	color: #fff;
 	font-size: 30px;
 	font-family: 'Verdana', Sans;
 	font-weight: bold;
@@ -632,7 +695,7 @@ html, body {
 
 /*----------------------------------**/
 
-/* currently superceded by tips .btn-primary above so this really has litle effect */
+/* currebtly superceded by tips .btn-primary above so this really has litle effect */
 #NextBackBtn {
 	font-size:large; 
 	float: right;
