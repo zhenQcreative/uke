@@ -1,0 +1,10 @@
+Uke - 2.29 - Jessica
+
+THEMES
+-got ngCookies working
+-$cookies is very useful
+-theme selection in index.html is working immediately
+
+ERROR
+-need to figure out how to do a refresh from theme page
+-theme selection from theme view need above solution to apply selection immediately

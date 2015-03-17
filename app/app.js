@@ -5,6 +5,7 @@
 							 "ui.router",
 							 "ui.mask",
 							 "ui.bootstrap",
+							 "ngCookies",
 							 "mediaPlayer",
 							 "productResourceMock"]);
 	//error handling
