@@ -31,17 +31,26 @@
 					</li>  
 			</td>
 			
-			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1" id="beatsChords">
-				<div>
-					<img ng-src="{{vm.currentBeat.imageUrl}}"
-						 title="{{vm.currentBeat.beatName}}">
-				 </div>
-		 	
-			 	<audio media-player="audio1" data-playlist="playlist1">
-					<source src="http://upload.wikimedia.org/wikipedia/en/d/d0/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg" type="audio/ogg">
-				</audio>
-				<span ng-show="audio1.playing">Player status: Playing</span>
-				<span ng-show="!audio1.playing">Player status: Paused</span>
+			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
+					<div class="row" id="progTitle">
+						<div><span>Style: {{vm.currentBeat.beatStyle}}</span></div>
+						<div><span>Name: {{vm.currentBeat.beatTitle}}</span></div>
+					</div>
+					<!--<div> 
+						<img ng-src="{{vm.currentBeat.imageUrl}}"
+							 title="{{vm.currentBeat.beatName}}"> 
+					</div>-->
+		 			<div class="row" id="progTitle">
+					 	<div audio options="options" class="ng-isolate-scope">
+					 		<div ng-click="play(0)" class="play_border" ng-show="loaded && !running">
+					 			<div class="play_button"></div>
+				 			</div>
+
+				 			<div ng-click="stop(0)" class="play_border ng-hide" ng-show="loaded && running">
+				 				<div class="pause_button"></div>
+			 				</div>
+		 				</div>
+	 				</div>
 			</td>
 		</table>
 	</div>

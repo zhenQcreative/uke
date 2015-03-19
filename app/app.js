@@ -5,7 +5,7 @@
 							 "ui.router",
 							 "ui.mask",
 							 "ui.bootstrap",
-							 "mediaPlayer",
+							 "ngAudio",
 							 "productResourceMock"]);
 	//error handling
 	app.config(function($provide){

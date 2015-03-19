@@ -2102,7 +2102,7 @@ var improv2 = [
 			 "tipInfo2": "Store it properly. Even if you never take your uke out of the house, invest in a bag or case. Even the flimsiest one will give protection against dust and light dings. Temperature is actually the big issue with storage. Avoid leaving your uke in direct sunlight, in fact steer clear of heaters altogether. For instance, avoid leaving it in a hot car. Cold is less of a problem, but if you are traveling by car, carry your uke inside with you rather than sticking it in the trunk.",
 			 "tipCatagory":"Care",
 			 "tags": ["Care", "Instrument"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_1.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2116,7 +2116,7 @@ var improv2 = [
 			 "tipInfo3": "Letters are used to illustrate fingerpicking in tablature and the fingers of the picking hand are referred to as follows.  T-Thumb, I-Index finger, M-Middle finger, A-Ring finger.  These finger names appear directly beneath each note.  Where two notes are picked at the same time, they appear one on top of the other in the same configuration as the tab.",
 			 "tipCatagory":"Lessons",
 			 "tags": ["Skills", "Picking"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_2.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2130,7 +2130,7 @@ var improv2 = [
 			 "tipInfo3": "Tap your foot on the downstrokes, this will help you with your internal clock. Don't worry about chord changes for now, just grab a basic chord and first get comfortable with the strumming pattern. As you practice, be sure you can play along with the beat consistently as you tap your foot. Only add a chord change once you have the strumming pattern sorted properly. Once you are comfortable with this approach, you'll be more prepared to play along with other musicians in a jam session.",
 			 "tipCatagory":"Lessons",
 			 "tags": ["Skills", "Strumming"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_3.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2144,7 +2144,7 @@ var improv2 = [
 			 "tipInfo3": "Never put steel strings on a uke. The tension will ruin the instrument. Some common types of strings are Nyglut or Fluoro-Carbon ",
 			 "tipCatagory":"Care",
 			 "tags": ["Care", "Instrument", "Strings"],  	
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_4.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2158,7 +2158,7 @@ var improv2 = [
 			 "tipInfo3": "You can change from C-tuning GCEA to D-tuning ADF#B simply by putting the capo on the second fret. This is a pretty common practice with guitar players and will help you in jam sesions.",
 			 "tipCatagory": "Misc",
 			 "tags": ["Skills", "Picking"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_5.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2172,7 +2172,7 @@ var improv2 = [
 			 "tipInfo3": "Hard cases are perfect for traveling musicians and anyone who may be a bit clumsy and offer the most protection. Many hard cases have just a small compartment under the neck, which is a hangover from the design of guitar cases. In a uke case this results in just enough room to store change for the the accessories you want.  This means you may also want to bring a bag for extra strings, cleaning cloth and tuner etc.",
 			 "tipCatagory": "Misc",
 			 "tags": ["Skills", "Strumming"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_6.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2186,7 +2186,7 @@ var improv2 = [
 			 "tipInfo3": "It is also common to stick to flat keys - Ab, Eb, Bb etc. as these tend to sound less cliche than regular guitar keys like A, E, D. Basically, try to avoid guitar keys like the plague, and lean to the more jazz sounding flat keys for an authentic R&B feel.",
 			 "tipCatagory":"Styles",
 			 "tags": ["Styles"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_7.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2200,7 +2200,7 @@ var improv2 = [
 			 "tipInfo3": "The Ukulele is commonly associated with music from Hawaii where the name roughly translates as jumping flea, perhaps because of the movement of the players fingers. Legend attributes it to the nickname of the Englishman Edward William Purvis, one of King Kalākaua's officers, because of his small size, fidgety manner, and playing expertise.",
 			 "tipCatagory": "History",
 			 "tags": ["History", "Trivia"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_8.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2214,7 +2214,7 @@ var improv2 = [
 			 "tipInfo3": "The numbers that appear on the tab indicate which string to play and what fret to play it at. A number 1 means that the string indicated on the tab should be played at the first fret. Playing the E string at the first fret gives us an F note. Open strings, meaning strings played without fretting a note at all, are indicated by a 0.",
 			 "tipCatagory":"Lessons",
 			 "tags": ["Lessons", "Tabs"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_9.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2228,7 +2228,7 @@ var improv2 = [
 			 "tipInfo3": "Shorthand saves time when you are in a rush or just writing a song without wanting to use tablature or formal notation.",
 			 "tipCatagory":"Songwriting",
 			 "tags": ["Songwriting", "ProTips"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_10.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2242,7 +2242,7 @@ var improv2 = [
 			 "tipInfo3": "Always remove finger and body marks from Nickel plated or gold plated hardware and use the special impregnated cleaning cloths that are available for this purpose. Never use abrasive cleaners as this can remove the plating! Chrome hardware is much easier to keep clean and is much harder wearing.",
 			 "tipCatagory":"Care",
 			 "tags": ["Care", "Cleaning"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_11.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2256,7 +2256,7 @@ var improv2 = [
 			 "tipInfo3": "Also, never leave your instrument stored in a cold or damp place eg. cellar, loft or out in the garage.",
 			 "tipCatagory": "Misc",
 			 "tags": ["Misc", "ProTips", "Storing"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_12.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2270,7 +2270,7 @@ var improv2 = [
 			 "tipInfo3": "Canada, on the other hand, was one of the first countries to initiate teaching the ukulele in schools and many music students learned the ukulele under the school music program devised by John Doane.",
 			 "tipCatagory":"History",
 			 "tags": ["International", "History"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_13.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2284,7 +2284,7 @@ var improv2 = [
 			 "tipInfo3": "Although the ukulele is still associated with traditional Hawaiian music and culture, the development of different types of ukulele has led to the popularization of the instrument in many different musical settings. Over the past twenty years the ukulele revival has maintained momentum, with a number of ukulele players becoming very popular well into the new millennium. The 1990's ukulele revival has also led to the instrument being used increasingly in popular (pop) music performances and recordings, as well as being a common instrument for performing covers of popular music too.",
 			 "tipCatagory": "Misc",
 			 "tags": ["Misc", "ProTips", "Storing"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_14.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"
@@ -2298,7 +2298,7 @@ var improv2 = [
 			 "tipInfo3": "When you strum with your right hand, use the back of your nails going down the strings and the fleshy part of your fingertips coming back up. Strum a little higher on the body of the uke than the hollow hole in the center. Although that is the correct position to play the strings on a guitar, for a uke it is the proper position to play nearer to the neck.",
 			 "tipCatagory": "Lessons",
 			 "tags": ["Misc", "ProTips", "Storing"],
-			 "imageUrl": "images/tips/ukeIMG_2B.jpg",
+			 "imageUrl": "images/tips/ukeIMG_16.jpg",
 			 "imageUrl2": "images/ukelele_humifier.jpg",
 			 "imageUrl3": "images/ukelele_humifier.jpg",
 			 "imageUrl4": "images/ukelele_humifier.jpg"

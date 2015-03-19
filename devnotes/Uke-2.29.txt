@@ -1,0 +1,9 @@
+Uke - 2.29 - Shane
+
+TIPS
+-replaced single photo with unique photos that wwere resized 
+
+BEATS
+-display style and beat title 
+-css play/pause button currently plays one mp3 file 
+
