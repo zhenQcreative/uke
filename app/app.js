@@ -6,6 +6,7 @@
 							 "ui.mask",
 							 "ui.bootstrap",
 							 "ngAudio",
+							 "ngCookies",
 							 "productResourceMock"]);
 	//error handling
 	app.config(function($provide){

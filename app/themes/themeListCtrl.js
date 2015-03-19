@@ -2,11 +2,12 @@
 	angular
 			.module("productManagement")
 			.controller("ThemeListCtrl",
-						["$scope", 
+						["$scope",
+             "$cookies", 
 						 "themeResource",
 							ThemeListCtrl]);
 	
-	function ThemeListCtrl($scope,themeResource){
+	function ThemeListCtrl($scope,$cookies,themeResource){
 		var vm = this;
 		
 		//populate vm.theme with all the arrays of data arrays
@@ -102,18 +103,31 @@
   		} 
 
       //sets your theme
-      //$scope.permTheme = "css/beachVacation.css";
-      //console.log("what permTheme 1:",  $scope.permTheme);
+      //console.log("what permTheme 1:",  $cookies);
+      $scope.favoriteCookie = $cookies.myFavorite;
 
       $scope.selectTheme = function(item){
-        console.log("what selectTheme: ", item);
           for(var i=0; i<vm.themes.length; i++)
           {
             if(item == vm.themes[i].themeId){
               $scope.permTheme = vm.themes[i].themeCSS;
             }
           }
-         console.log("what permTheme 2:",  $scope.permTheme);
+          $cookies.myFavorite = $scope.permTheme;
+          //console.log("what permTheme 2:", $cookies);
+
+          $scope.favoriteCookie = $cookies.myFavorite;
+          console.log("what permTheme 3:", $cookies);
+      }
+
+      //preview
+      $scope.preview = function(item){
+          for(var i=0; i<vm.themes.length; i++)
+          {
+            if(item == vm.themes[i].themeId){
+              $scope.permTheme = vm.themes[i].themeCSS;
+            }
+          }
       }
 	} 
 

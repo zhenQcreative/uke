@@ -1,9 +1,18 @@
-Uke - 2.29 - Shane
+Uke - 2.29 - Jessica
 
-TIPS
+TIPS (S)
 -replaced single photo with unique photos that wwere resized 
 
-BEATS
+BEATS (S)
 -display style and beat title 
 -css play/pause button currently plays one mp3 file 
+
+THEMES
+-got ngCookies working
+-$cookies is very useful
+-theme selection in index.html is working immediately
+
+ERROR
+-need to figure out how to do a refresh from theme page
+-theme selection from theme view need above solution to apply selection immediately
 
