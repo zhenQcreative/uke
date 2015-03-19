@@ -1,0 +1,10 @@
+Uke - 2.29 - Jessica
+
+CSS
+-tweeked settings for col-sm, col-md, col-lg
+-view on ipad is better now
+
+ERROR
+-need to figure out how to do a refresh from theme page
+-theme selection from theme view need above solution to apply selection immediately
+
