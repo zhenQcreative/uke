@@ -273,9 +273,9 @@ html, body {
 	background: #F4E0CB;
 	color: #CF6314;
 	border-radius: 30px;
-	min-width: 55px;
+	min-width: 45px;
 	max-width: 65px;
-	padding: 8px;
+	padding: 5px;
 	margin: 2px;
 	text-align: center;
 	position: relative;
@@ -332,26 +332,32 @@ html, body {
 }
 
 /**--------------Beats VIEW------------------**/
-#beatsChords {
+#beatIMG{
+	float: left;
+ 	width: 150%; /*this makes the image size responsive*/
+ 	margin:20px 10px 10px 30px;
+}
+
+#beatChords {
 	background: transparent;
 	text-decoration: none;
 	border: none;
 	margin-top: -10px;
 }
 
-#beatsChords .panel-body{
+#beatChords .panel-body{
 	padding: 0px;
 	margin:2px;
 	border: none;
 }
 
-#beatsChords td{
+#beatChords td{
 	padding: 0px;
 	margin:2px;
 	border-top: none;
 }
 
-#beatsChords a {
+#beatChords a {
 	border-radius: 10px 10px 0px 0px;
 	display: inline-block;
 	margin-right: 5px;
@@ -361,18 +367,18 @@ html, body {
 	text-decoration: none;
 }
 
-#beatsChords .active{
+#beatChords .active{
 	background: #DA9223;
 	color: #fff;	
 }
 
-#beatsChords ul{
+#beatChords ul{
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
 }
 
-#beatsChords li a {
+#beatChords li a {
 	background: #F4E0CB;
 	color: #CF6314;
 	border-radius: 30px;
@@ -383,14 +389,15 @@ html, body {
 	text-align: center;
 	position: relative;
 }
-#beatsChords img {
- 	width: 85%; /*this makes the image size responsive*/
- 	margin:10px 10px 0px 10px;
+
+#beatChords img {
+ 	width: 100%; /*this makes the image size responsive*/
+ 	margin:20px 20px 20px 20px;
  	/*vertical-align: center; */
  	/*position: relative;*/
 }
 
-#beatsTitle{
+#beatTitle{
 	color: #fff;
 	font-size: 20px;
 	font-family: 'Verdana', Sans;
@@ -404,7 +411,7 @@ html, body {
 	position: relative;
 }
 
-#beatsHdr{
+#beatHdr{
 	color: #000;
 	font-size: 20px;
 	font-family: 'Verdana', Sans;
@@ -414,7 +421,7 @@ html, body {
 }
 
 
-#beatsNav{
+#beatNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
@@ -424,7 +431,7 @@ html, body {
 	position: relative;
 }
 
-#beatsNav a{
+#beatNav a{
 	background: #F4E0CB;
 	color: #CF6314;
 	min-width: 30px;
@@ -575,10 +582,6 @@ html, body {
 	border-color: #DA9223;
 	margin: 0px 0px 0px 0px;
 }
-#tips .btn:focus {
-  outline: none;
-  box-shadow: none;
-}
 
 #tips .btn-primary-nextBack{
 	background-color: #DA9223;
@@ -594,7 +597,7 @@ html, body {
 
 #tips img{
 	float: right;
-	width:65%; 
+	width:50%; 
 	margin: 10px;
 	padding: 0px;
 	max-width: 200px;
@@ -621,7 +624,7 @@ html, body {
 
 #tipText {
 	font-size: Medium;
-	color: #222;
+	color: #FF9933;
 	float: left;
 	text-align: left;
 	margin:5px 5px 0px 5px;

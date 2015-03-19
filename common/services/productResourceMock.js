@@ -2381,7 +2381,7 @@ var improv2 = [
 			 "beatStyle": "Folk",			 
 			 "beatGroup": "Folk",
 			 "image1Title": "Folk Beat 1",
-			 "imageUrl": "images/chords/Ukulele_A.png",
+			 "imageUrl": "images/tips/ukeIMG_1.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2390,7 +2390,7 @@ var improv2 = [
 			 "beatTitle": "Folk Beat 2",
 			 "beatStyle": "Folk",			 
 			 "beatGroup": "Folk",
-			 "imageUrl": "images/chords/Ukulele_B.png",
+			 "imageUrl": "images/tips/ukeIMG_2.jpg",
 			 "image1Title": "Folk Beat 2",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/bluesBeat_12barx3.m4a"
@@ -2401,7 +2401,7 @@ var improv2 = [
 			 "beatStyle": "Folk",			 
 			 "beatGroup": "Folk",
 			 "image1Title": "Folk Beat 3",
-			 "imageUrl": "images/chords/Ukulele_C.png",
+			 "imageUrl": "images/tips/ukeIMG_3.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2411,7 +2411,7 @@ var improv2 = [
 			 "beatStyle": "Blues",			 
 			 "beatGroup": "Blues",
 			 "image1Title": "Blues Beat 1",
-			 "imageUrl": "images/chords/Ukulele_D.png",
+			 "imageUrl": "images/tips/ukeIMG_1.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2421,7 +2421,7 @@ var improv2 = [
 			 "beatStyle": "Blues",			 
 			 "beatGroup": "Blues",
 			 "image1Title": "Blues Beat 1",
-			 "imageUrl": "images/chords/Ukulele_E.png",
+			 "imageUrl": "images/tips/ukeIMG_4.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2431,7 +2431,7 @@ var improv2 = [
 			 "beatStyle": "Aloha",			 
 			 "beatGroup": "Hawaii",
 			 "image1Title": "Hawaiian Beat 1",
-			 "imageUrl": "images/chords/Ukulele_F.png",
+			 "imageUrl": "images/tips/ukeIMG_5.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2441,7 +2441,7 @@ var improv2 = [
 			 "beatStyle": "Aloha",			 
 			 "beatGroup": "Hawaii",
 			 "image1Title": "Hawaiian Beat 2",
-			 "imageUrl": "images/chords/Ukulele_G.png",
+			 "imageUrl": "images/tips/ukeIMG_6.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2451,7 +2451,7 @@ var improv2 = [
 			 "beatStyle": "Jazz",			 
 			 "beatGroup": "Jazz",
 			 "image1Title": "Jazz Beat 1",
-			 "imageUrl": "images/chords/Ukulele_A.png",
+			 "imageUrl": "images/tips/ukeIMG_7.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2461,7 +2461,7 @@ var improv2 = [
 			 "beatStyle": "Jazz",			 
 			 "beatGroup": "Jazz",
 			 "image1Title": "Jazz Beat 2",
-			 "imageUrl": "images/chords/Ukulele_AsharpBflat.png",
+			 "imageUrl": "images/tips/ukeIMG_8.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2471,7 +2471,7 @@ var improv2 = [
 			 "beatStyle": "Country",			 
 			 "beatGroup": "Country",
 			 "image1Title": "Country Beat 1",
-			 "imageUrl": "images/chords/Ukulele_C7sharpD7flat.png",
+			 "imageUrl": "images/tips/ukeIMG_9.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2481,7 +2481,7 @@ var improv2 = [
 			 "beatStyle": "Country",			 
 			 "beatGroup": "Country",
 			 "image1Title": "Country Beat 2",
-			 "imageUrl": "images/chords/Ukulele_Bsus.png",
+			 "imageUrl": "images/tips/ukeIMG_10.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2491,7 +2491,7 @@ var improv2 = [
 			 "beatStyle": "Rock",			 
 			 "beatGroup": "Rock",
 			 "image1Title": "Rock Beat 1",
-			 "imageUrl": "images/chords/Ukulele_D9sharpE9flat.png",
+			 "imageUrl": "images/tips/ukeIMG_11.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2501,7 +2501,7 @@ var improv2 = [
 			 "beatStyle": "Rock",			 
 			 "beatGroup": "Rock",
 			 "image1Title": "Rock Beat 2",
-			 "imageUrl": "images/chords/Ukulele_E9.png",
+			 "imageUrl": "images/tips/ukeIMG_12.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2511,7 +2511,7 @@ var improv2 = [
 			 "beatStyle": "Click",			 
 			 "beatGroup": "Click",
 			 "image1Title": "Click Track 1",
-			 "imageUrl": "images/chords/Ukulele_Fsus.png",
+			 "imageUrl": "images/tips/ukeIMG_13.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2521,7 +2521,7 @@ var improv2 = [
 			 "beatStyle": "Click",			 
 			 "beatGroup": "Click",
 			 "image1Title": "Click Track 2",
-			 "imageUrl": "images/chords/Ukulele_Gsus.png",
+			 "imageUrl": "images/tips/ukeIMG_14.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2531,7 +2531,7 @@ var improv2 = [
 			 "beatStyle": "R&B",			 
 			 "beatGroup": "R&B",
 			 "image1Title": "R&B Beat 1",
-			 "imageUrl": "images/chords/Ukulele_Asus.png",
+			 "imageUrl": "images/tips/ukeIMG_15.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2541,7 +2541,7 @@ var improv2 = [
 			 "beatStyle": "R&B",			 
 			 "beatGroup": "R&B",
 			 "image1Title": "R&B Beat 2",
-			 "imageUrl": "images/chords/Ukulele_Bsus.png",
+			 "imageUrl": "images/tips/ukeIMG_16.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2551,7 +2551,7 @@ var improv2 = [
 			 "beatStyle": "Ballad",			 
 			 "beatGroup": "Ballad",
 			 "image1Title": "Ballad Beat 1",
-			 "imageUrl": "images/chords/Ukulele_Csus.png",
+			 "imageUrl": "images/tips/ukeIMG_1.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			},
@@ -2561,7 +2561,7 @@ var improv2 = [
 			 "beatStyle": "Ballad",			 
 			 "beatGroup": "Ballad",
 			 "image1Title": "Ballad Beat 2",
-			 "imageUrl": "images/chords/Ukulele_Dsus.png",
+			 "imageUrl": "images/tips/ukeIMG_2.jpg",
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			}

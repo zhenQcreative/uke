@@ -328,6 +328,133 @@ html, body {
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+
+/**-------------TIP main VIEW--------------**/
+#tipView {
+	background: transparent;
+	text-decoration: none;
+	border: none;
+}
+
+#tipView .panel-body{
+	padding: 0px;
+	margin: 2px;
+}
+#tipView .discription{
+	padding-left: 15px;
+}
+#tipView .panel-heading {
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+	width: 100%;
+}
+#tipView .panel-heading span{
+	float: right;
+}
+
+#tipView td{
+	padding: 0px;
+	margin:2px;
+	border-top: none;
+}
+
+#tipView a {
+	border-radius: 10px 10px 0px 0px;
+	display: inline-block;
+	margin-right: 5px;
+	min-width: 50px;
+	outline: 1px;
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+}
+
+#tipView .active{
+	background: #fff;
+	color: #000;
+
+}
+
+#tipView ul{
+	list-style-type: none;
+	padding: 0px;
+	margin-right: 20px;
+}
+
+#tipView li a {
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+	border-radius: 30px;
+	min-width: 100%;
+	padding: 8px;
+	margin: 2px;
+	text-align: center;
+}
+
+/**--------------TIP List------------------**/
+
+#tips .panel-heading{
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+}
+#tips .panel, .panel-primary, .route-blurb-container {
+	border-color: #DA9223;
+
+}
+#tips .btn-primary{
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+	/*border-color: #DA9223;*/
+	margin: 0px 0px 0px 0px;
+}
+
+
+#tips .btn-primary-nextBack{
+	background: rgba(055,055,055,0.9);
+	color: #fff;
+	margin: -20px 0px 10px 0px;
+}
+
+#tips .row{
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+}
+
+#tips img{
+	float: right;
+	width:50%; 
+	margin: 10px;
+	padding: 0px;
+	max-width: 200px;
+}
+
+#tips .title{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	width:100%;
+}
+
+#tipTitle {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Verdana', Sans;
+	font-weight: bold;
+	line-height: 40px;
+	/*float: right; */
+	text-align: center;
+	padding: 0px;
+	margin:5px;
+}
+
+#tipText {
+	font-size: Medium;
+	color: #FF9933;
+	float: left;
+	text-align: left;
+	margin:5px 5px 0px 5px;
+}
+
 /**--------------Beats VIEW------------------**/
 #beatsChords {
 	background: transparent;

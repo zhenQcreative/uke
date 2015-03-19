@@ -1,4 +1,4 @@
-<div class="panel panel-primary" id="beatsChords">
+<div class="panel panel-primary" id="progChords">
 	<div class="panel-body">
 		<table class="table">
 			<td class="col-xs-1">
@@ -34,19 +34,19 @@
 			<td class="col-xs-11 col-sm-1 col-md-1 col-lg-1">
 					<div class="row" id="progTitle">
 						<div><span>Style: {{vm.currentBeat.beatStyle}}</span></div>
-						<div><span>Name: {{vm.currentBeat.beatTitle}}</span></div>
+						<div><span>{{vm.currentBeat.beatTitle}}</span></div>
 					</div>
-					<!--<div> 
+					<div id="beatIMG"> 
 						<img ng-src="{{vm.currentBeat.imageUrl}}"
 							 title="{{vm.currentBeat.beatName}}"> 
-					</div>-->
+					</div>
 		 			<div class="row" id="progTitle">
 					 	<div audio options="options" class="ng-isolate-scope">
-					 		<div ng-click="play(0)" class="play_border" ng-show="loaded && !running">
+					 		<div ng-click="play(1)" class="play_border" ng-show="loaded && !running">
 					 			<div class="play_button"></div>
 				 			</div>
 
-				 			<div ng-click="stop(0)" class="play_border ng-hide" ng-show="loaded && running">
+				 			<div ng-click="stop(1)" class="play_border ng-hide" ng-show="loaded && running">
 				 				<div class="pause_button"></div>
 			 				</div>
 		 				</div>
@@ -54,7 +54,7 @@
 			</td>
 		</table>
 	</div>
-	<div class="row" id="beatsNav">
+	<div class="row" id="progNav">
 		<div ng-repeat="beat in vm.filteredBeats">
 			<div class = "col-xs-1">
 				<a ng-class="active(beat)" ng-click="selectBeat(beat)">{{beat.beatName}}</a>

@@ -13,8 +13,8 @@
 	    var vm = this;
 
 		$scope.options = {
-		  playlist: ['audio/beats/ClasicRockandRoll.mp3'],
-		  loop: true
+		  playlist: ['audio/beats/RnB_230.mp3', 'audio/beats/metronome_beat_120bpm.mp3' ],
+		  loop: false
 		};
 
 	    vm.currentBeat = [];
@@ -38,7 +38,7 @@
 			for(var i=0; i<vm.beats.length; i++){
 				//checking chordGroup is same as 'A'
 				//fill a temp array
-				if(vm.beats[i].beatGroup === "Folk"){
+				if(vm.beats[i].beatGroup === "Hawaii"){
 					beatsArray[num] = vm.beats[i];
 					num++;
 				};

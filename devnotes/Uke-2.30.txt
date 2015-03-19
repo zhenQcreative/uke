@@ -1,0 +1,15 @@
+Uke - 2.29 - Shane
+
+TIPS (S)
+-updated css to make each style display tips consistently
+
+BEATS (S)
+-updated css so beats nav are consistent margin with the other sections
+-added image for each beat (consider 1 for each style with variations)
+-added metronome audio file but it's not used yet 
+
+THEMES
+-updated blacklight so tips nav is consistent with the rest of the app
+
+
+
