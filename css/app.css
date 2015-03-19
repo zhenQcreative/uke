@@ -83,15 +83,14 @@ html, body {
 }
 
 #altChords img {
- 	float: left;
- 	width: 100%; /*this makes the image size responsive*/
+ 	width: 96%; /*this makes the image size responsive*/
  	margin:10px;
  	/*vertical-align: center; */
 }
 	
 #chordNav{
 	vertical-align: bottom;
-	margin-left: 15%;
+	/*margin-left: 15%;*/
 	/*margin-right: 25%;*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
@@ -110,7 +109,7 @@ html, body {
 #sharpFlatNav{
 	/*don't put anything in here or risk 
 	overiding image size and position too*/
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 #sharpFlatNav a{
@@ -207,17 +206,33 @@ html, body {
 	position: relative;
 }
 
-
+/*
 #progNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
 }
 
+
+#progNav a{
+	background: #F4E0CB;
+	color: #CF6314;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+*/
+
+#progNav{
+	vertical-align: bottom;
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
 
 #progNav a{
 	background: #F4E0CB;
@@ -311,12 +326,27 @@ html, body {
 	position: relative;
 }
 
-
+/*
 #patternNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+#patternNav a{
+	background: #F4E0CB;
+	color: #CF6314;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+*/
+#patternNav{
+	vertical-align: bottom;
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
