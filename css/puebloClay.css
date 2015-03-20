@@ -91,7 +91,7 @@ html, body {
 	
 #chordNav{
 	vertical-align: bottom;
-	margin-left: 15%;
+	/*margin-left: 15%;*/
 	/*margin-right: 25%;*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
@@ -207,12 +207,29 @@ html, body {
 	position: relative;
 }
 
-
+/*
 #progNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
+	
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+#progNav a{
+	background: #F4E0CB;
+	color: #CF6314;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+*/
+
+#progNav{
+	vertical-align: bottom;
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
@@ -273,9 +290,9 @@ html, body {
 	background: #F4E0CB;
 	color: #CF6314;
 	border-radius: 30px;
-	min-width: 45px;
+	min-width:55px;
 	max-width: 65px;
-	padding: 5px;
+	padding: 8px;
 	margin: 2px;
 	text-align: center;
 	position: relative;
@@ -311,12 +328,11 @@ html, body {
 	position: relative;
 }
 
-
+/*
 #patternNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
@@ -330,28 +346,49 @@ html, body {
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+*/
+#patternNav{
+	vertical-align: bottom;
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
 
+#patternNav a{
+	background: #F4E0CB;
+	color: #CF6314;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
 /**--------------Beats VIEW------------------**/
-#patternChords {
+#beatIMG{
+	float: left;
+ 	width: 150%; /*this makes the image size responsive*/
+ 	margin:20px 10px 10px 30px;
+}
+
+#beatChords {
 	background: transparent;
 	text-decoration: none;
 	border: none;
 	margin-top: -10px;
 }
 
-#patternChords .panel-body{
+#beatChords .panel-body{
 	padding: 0px;
 	margin:2px;
 	border: none;
 }
 
-#patternChords td{
+#beatChords td{
 	padding: 0px;
 	margin:2px;
 	border-top: none;
 }
 
-#patternChords a {
+#beatChords a {
 	border-radius: 10px 10px 0px 0px;
 	display: inline-block;
 	margin-right: 5px;
@@ -361,18 +398,18 @@ html, body {
 	text-decoration: none;
 }
 
-#patternChords .active{
+#beatChords .active{
 	background: #DA9223;
 	color: #fff;	
 }
 
-#patternChords ul{
+#beatChords ul{
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
 }
 
-#patternChords li a {
+#beatChords li a {
 	background: #F4E0CB;
 	color: #CF6314;
 	border-radius: 30px;
@@ -383,14 +420,15 @@ html, body {
 	text-align: center;
 	position: relative;
 }
-#patternChords img {
- 	width: 85%; /*this makes the image size responsive*/
- 	margin:10px 10px 0px 10px;
+
+#beatChords img {
+ 	width: 100%; /*this makes the image size responsive*/
+ 	margin:20px 20px 20px 20px;
  	/*vertical-align: center; */
  	/*position: relative;*/
 }
 
-#patternTitle{
+#beatTitle{
 	color: #fff;
 	font-size: 20px;
 	font-family: 'Verdana', Sans;
@@ -404,7 +442,7 @@ html, body {
 	position: relative;
 }
 
-#patternHdr{
+#beatHdr{
 	color: #000;
 	font-size: 20px;
 	font-family: 'Verdana', Sans;
@@ -413,18 +451,18 @@ html, body {
 	position: relative;
 }
 
-
-#patternNav{
+#beatNav{
 	vertical-align: bottom;
+	/*
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
+	*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
 }
 
-#patternNav a{
+#beatNav a{
 	background: #F4E0CB;
 	color: #CF6314;
 	min-width: 30px;
