@@ -91,7 +91,7 @@ html, body {
 	
 #chordNav{
 	vertical-align: bottom;
-	margin-left: 15%;
+	/*margin-left: 15%;*/
 	/*margin-right: 25%;*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
@@ -207,12 +207,30 @@ html, body {
 	position: relative;
 }
 
-
+/*
 #progNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
+	
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+
+#progNav a{
+	background: rgba(055,055,055,0.9);
+	color: #fff;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+*/
+
+#progNav{
+	vertical-align: bottom;
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
@@ -309,12 +327,28 @@ html, body {
 	padding: 5px 5px 5px 7px;
 	position: relative;
 }
-
+/*
 #patternNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
+	
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+#patternNav a{
+	background: rgba(055,055,055,0.9);
+	color: #fff;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+*/
+#patternNav{
+	vertical-align: bottom;
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
@@ -537,12 +571,12 @@ html, body {
 	position: relative;
 }
 
-
+/*
 #beatsNav{
 	vertical-align: bottom;
 	margin-left: 15%;
 	margin-top: -2%;
-	/*margin-right: 25%;*/
+	
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
@@ -556,6 +590,24 @@ html, body {
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+*/
+
+#beatsNav{
+	vertical-align: bottom;
+	min-width: 400px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+}
+
+#beatsNav a{
+	background: #F4E0CB;
+	color: #CF6314;
+	min-width: 30px;
+	text-align: center;
+	padding: 5px 65% 5px 65%;
+	border-radius: 100px;
+}
+
 /**--------------MAIN VIEW------------------**/
 #mainView {
 	

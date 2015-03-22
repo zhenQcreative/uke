@@ -1,0 +1,68 @@
+<div class="panel panel-primary" id="progChords">
+	<div class="panel-body">
+		<table class="table">
+			<td class="col-xs-1">
+				<ul >
+					<li >
+						<a ng-class="active('Hawaii')" ng-click="goToBeat('Hawaii', vm.currentBeat.beatName)">Aloha</a>
+					</li>
+					<li ><a ng-class="active('Folk')" ng-click="goToBeat('Folk', vm.currentBeat.beatName)">Folk</a>
+					</li>
+					<li >
+						<a ng-class="active('Rock')" ng-click="goToBeat('Rock', vm.currentBeat.beatName)">Rock</a>
+					</li>
+					<li >
+						<a ng-class="active('Country')" ng-click="goToBeat('Country', vm.currentBeat.beatName)">Cntry</a>
+					</li>
+					<li >
+						<a ng-class="active('Blues')" ng-click="goToBeat('Blues', vm.currentBeat.beatName)">Blues</a>
+					</li> 
+					<li >
+						<a ng-class="active('Jazz')" ng-click="goToBeat('Jazz', vm.currentBeat.beatName)">Jazz</a>
+					</li>
+					<li >
+						<a ng-class="active('Ballad')" ng-click="goToBeat('Ballad', vm.currentBeat.beatName)">Ballad</a>
+					</li>
+					<li >
+						<a ng-class="active('R&B')" ng-click="goToBeat('R&B', vm.currentBeat.beatName)">R&B</a>
+					</li>
+					<li >
+						<a ng-class="active('Click')" ng-click="goToBeat('Click', vm.currentBeat.beatName)">Click</a>
+					</li>  
+			</td>
+			
+			<td class="col-sm-1 col-md-1 col-lg-1"></td>
+			<td class="col-xs-11 col-sm-8 col-md-8 col-lg-8">
+					<div class="row" id="progTitle">
+						<div><span>Style: {{vm.currentBeat.beatStyle}}</span></div>
+						<div><span>{{vm.currentBeat.beatTitle}}</span></div>
+					</div>
+					<div id="beatIMG"> 
+						<img ng-src="{{vm.currentBeat.imageUrl}}"
+							 title="{{vm.currentBeat.beatName}}"> 
+					</div>
+		 			<div class="row" id="progTitle">
+					 	<div audio options="options" class="ng-isolate-scope">
+					 		<div ng-click="play(1)" class="play_border" ng-show="loaded && !running">
+					 			<div class="play_button"></div>
+				 			</div>
+
+				 			<div ng-click="stop(1)" class="play_border ng-hide" ng-show="loaded && running">
+				 				<div class="pause_button"></div>
+			 				</div>
+		 				</div>
+	 				</div>
+			</td>
+			<td class="col-sm-3 col-md-3 col-lg-1"></td>
+		</table>
+	</div>
+	<div class="row" id="progNav">
+		<div class = "col-xs-2 col-sm-3 col-md-3 col-lg-2"></div>
+		<div ng-repeat="beat in vm.filteredBeats">
+			<div class = "col-xs-1">
+				<a ng-class="active(beat)" ng-click="selectBeat(beat)">{{beat.beatName}}</a>
+			</div>
+		</div>
+		<div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+	</div>
+</div>
