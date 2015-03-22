@@ -1,4 +1,4 @@
-Uke - 2.29 - Shane
+Uke - 2.30 - Shane
 
 TIPS (S)
 -updated css to make each style display tips consistently
