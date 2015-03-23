@@ -8,3 +8,6 @@ ERROR
 -theme selection from theme view need above solution to apply selection immediately
 
 
+Uke - 2.31 - Jessica
+
+-added a tools view
