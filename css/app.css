@@ -14,7 +14,6 @@ html, body {
    	height: 100%;
   	overflow-x: hidden !important;
 }
-
 .fill { 
     min-height: 100%;
 }
@@ -412,16 +411,16 @@ html, body {
 	background: #F4E0CB;
 	color: #CF6314;
 	border-radius: 30px;
-	min-width: 45px;
+	min-width: 55px;
 	max-width: 65px;
-	padding: 5px;
+	padding: 8px;
 	margin: 2px;
 	text-align: center;
 	position: relative;
 }
 
 #beatChords img {
- 	width: 100%; /*this makes the image size responsive*/
+ 	width: 50%; /*this makes the image size responsive*/
  	margin:20px 20px 20px 20px;
  	/*vertical-align: center; */
  	/*position: relative;*/
@@ -450,12 +449,8 @@ html, body {
 	position: relative;
 }
 
-#beatNav{
+#beatChords{
 	vertical-align: bottom;
-	/*
-	margin-left: 15%;
-	margin-top: -2%;
-	*/
 	min-width: 400px;
 	padding: 5px 5px 5px 5px;
 	position: relative;
@@ -469,7 +464,59 @@ html, body {
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+/**--------------Tools VIEW------------------**/
+#toolView .panel-heading{
+	background-color: orange;
+	border: 0;
+}
+#toolView .panel-body{
+	padding: 2px;
+}
+#toolTuner table td{
+	border: 0;
+	text-align: center;
+	padding-top: 25px;
+}
+#toolTuner a{
+	text-decoration: none;
+	background: #F4E0CB;
+	color: #CF6314;
+	border-radius:100%;
+	padding: 10px 15px;
+	font-size: 1.5em;
+}
 
+#toolMetro table td{
+	border-top: 0px;	
+}
+.toolMetroList ul li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+.toolMetroList a{
+	text-decoration: none;
+	background: #F4E0CB;
+	color: #CF6314;
+	border-radius:100px;
+	padding: 10px;
+	margin-left: -35px;
+	width: 500px;
+}
+.toolMetroDisp ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 40px;
+	padding: 20px;
+}
+.toolMetroDisp a{
+	text-decoration: none;
+	background: #F4E0CB;
+	color: #CF6314;
+	border-radius:100%;
+	padding: 17px 11px;
+	font-size: 1.3em;
+	margin-left: -25px;
+}
 /**--------------MAIN VIEW------------------**/
 #mainView {
 	

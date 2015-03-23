@@ -98,6 +98,12 @@
 							controller: "BeatViewCtrl as vm"
 						})
 
+						.state("toolView", {
+							url: "/tools",
+							templateUrl: "app/tools/toolView.html",
+							controller: "ToolViewCtrl as vm"
+						})
+
 				}]
 
 	);

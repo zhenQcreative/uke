@@ -9,7 +9,6 @@
 	
 	function TipListCtrl($scope,tip,tipResource){
 		var vm = this;
-
     vm.currentTip = tip;
 
 		//populate vm.tip with all the arrays of data arrays

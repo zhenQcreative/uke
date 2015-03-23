@@ -2056,7 +2056,7 @@ var improv2 = [
 			 "patternStyle": "1",			 
 			 "chordGroup": "A",
 			 "image1Title": "1st Position",
-			 "imageUrl1": "images/patterns/Pentatonic_EMin1.png",
+			 "imageUrl1": "images/patterns/Pentatonic_EMin1.png"
 			},
 			{"patternId": 2,
 			 "patternName": "2nd Position",
@@ -2064,7 +2064,7 @@ var improv2 = [
 			 "patternStyle": "2",			 
 			 "chordGroup": "A",
 			 "image1Title": "2nd Position",
-			 "imageUrl1": "images/patterns/Pentatonic_EMin2.png",
+			 "imageUrl1": "images/patterns/Pentatonic_EMin2.png"
 			},
 			{"patternId": 3,
 			 "patternName": "3rd Position",
@@ -2072,7 +2072,7 @@ var improv2 = [
 			 "patternStyle": "3",			 
 			 "chordGroup": "A",
 			 "image1Title": "3rd Position",
-			 "imageUrl1": "images/patterns/Pentatonic_EMin3.png",
+			 "imageUrl1": "images/patterns/Pentatonic_EMin3.png"
 			},
 			{"patternId": 4,
 			 "patternName": "4th Position",
@@ -2080,7 +2080,7 @@ var improv2 = [
 			 "patternStyle": "4",			 
 			 "chordGroup": "A",
 			 "image1Title": "4th Position",
-			 "imageUrl1": "images/patterns/Pentatonic_EMin4.png",
+			 "imageUrl1": "images/patterns/Pentatonic_EMin4.png"
 			},
 			{"patternId": 5,
 			 "patternName": "5th Position",
@@ -2088,7 +2088,7 @@ var improv2 = [
 			 "patternStyle": "5",			 
 			 "chordGroup": "A",
 			 "image1Title": "5th Position",
-			 "imageUrl1": "images/patterns/Pentatonic_EMin5.png",
+			 "imageUrl1": "images/patterns/Pentatonic_EMin5.png"
 			}
 		];
 		//tips collection
@@ -2313,7 +2313,8 @@ var improv2 = [
 			 "themeCSS": "css/zhenSky.css",
 			 "themeLayout": "zhenSky",
 			 "tags": ["theme", "blue", "Night"],
-			 "imageUrl": "images/themes/ZhenSkyThumb.png"
+			 "imageUrl": "images/themes/ZhenSkyThumb.png",
+			 "themeColor":"{'color':'#1D86B0'}"
 			},
 			{"themeId": 2,
 			 "themeName": "Beach Vacation",
@@ -2321,7 +2322,8 @@ var improv2 = [
 			 "themeCSS": "css/beachVacation.css",
 			 "themeLayout": "beachVacation",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/BeachVacationThumb.png"
+			 "imageUrl": "images/themes/BeachVacationThumb.png",
+			 "themeColor":"{'color':'#FF9999'}"
 			},
 			{"themeId": 3,
 			 "themeName": "Black Light",
@@ -2329,7 +2331,8 @@ var improv2 = [
 			 "themeCSS": "css/blackLight.css",
 			 "themeLayout": "Black Light",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/BlackLightThumb.png"
+			 "imageUrl": "images/themes/BlackLightThumb.png",
+			 "themeColor":"{'color':'#2D3A6B'}"
 			},
 			{"themeId": 4,
 			 "themeName": "Pueblo Clay",
@@ -2337,7 +2340,8 @@ var improv2 = [
 			 "themeCSS": "css/puebloClay.css",
 			 "themeLayout": "puebloClay",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/PuebloClayThumb.png"
+			 "imageUrl": "images/themes/PuebloClayThumb.png",
+			 "themeColor":"{'color':'#722B35'}"
 			},
 			{"themeId": 5,
 			 "themeName": "Cloud Chaser",
@@ -2345,7 +2349,8 @@ var improv2 = [
 			 "themeCSS": "css/vaped.css",
 			 "themeLayout": "vaped",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/VapedThumb.png"
+			 "imageUrl": "images/themes/VapedThumb.png",
+			 "themeColor":"{'color':'#21C3F2'}"
 			},
 			{"themeId": 6,
 			 "themeName": "Green Thumb",
@@ -2353,7 +2358,8 @@ var improv2 = [
 			 "themeCSS": "css/greenThumb.css",
 			 "themeLayout": "Green Thumb",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/GreenThumb.png"
+			 "imageUrl": "images/themes/GreenThumb.png",
+			 "themeColor":"{'color':'#B3C21F'}"
 			},
 			{"themeId": 7,
 			 "themeName": "Maui Sunset",
@@ -2361,7 +2367,8 @@ var improv2 = [
 			 "themeCSS": "css/sunSet.css",
 			 "themeLayout": "Sun Set",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/SunSetThumb.png"
+			 "imageUrl": "images/themes/SunSetThumb.png",
+			 "themeColor":"{'color':'#FE4643'}"
 			},
 			{"themeId": 8,
 			 "themeName": "Stage Right",
@@ -2369,7 +2376,8 @@ var improv2 = [
 			 "themeCSS": "css/stageRight.css",
 			 "themeLayout": "Stage Right",
 			 "tags": ["theme", "blue", "Day"],
-			 "imageUrl": "images/themes/StageRightThumb.png"
+			 "imageUrl": "images/themes/StageRightThumb.png",
+			 "themeColor":"{'color':'#6B0B14'}"
 			}
 		];
 

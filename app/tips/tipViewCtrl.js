@@ -2,7 +2,7 @@
 	angular
 			.module("productManagement")
 			.controller("TipViewCtrl",
-						["$scope", 
+						["$scope",  
 						 "tipResource",
 							TipViewCtrl]);
 	
