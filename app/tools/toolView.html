@@ -1,54 +1,62 @@
 <div id = "toolView">
 	<div class="panel panel-primary" id="toolTuner">
 		<div class = "panel-heading">
-			Tuner
+			Tuner {{vm.currentTunerTitle}}
 		</div>
 		<div class = "panel-body">
+			<div class = "toolPlayer">
+				<audio controls ng-show="vm.tunerPlayer">
+					<source ng-src="audio/beats/RnB_230.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+			</div>
 			<table class="table">
-				<td class="col-xs-3">
-					<a> G </a>
-				</td>
-				<td class="col-xs-3">
-					<a> C </a>
-				</td>
-				<td class="col-xs-3">
-					<a> E </a>
-				</td>
-				<td class="col-xs-3">
-					<a> A </a>
+				<td class="col-xs-3" ng-repeat="tuner in vm.tuners">
+					<a ng-class="active(tuner)"
+					   ng-click="selectTuner(tuner)"> 
+					   {{tuner.toolTitle}}</a>
 				</td>
 			</table>
 		</div>
 	</div>
 	<div class="panel panel-primary" id="toolMetro">
 		<div class = "panel-heading">
-			Metronome
+			Metronome {{vm.currentMetroTitle}} {{vm.currentSpeedTitle}}
 		</div>
 		<div class = "panel-body">
 			<table class="table">
 				<td class="col-xs-3 toolMetroList">
-					<ul >
-						<li >
-							<a>Type 1</a>
-						</li>
-						<li >
-							<a>Type 2</a>
-						</li>
-						<li >
-							<a>Type 3</a>
-						</li>
-						<li >
-							<a>Type 4</a>
+					<ul>
+						<li ng-repeat="metro in vm.metronomes" >
+							<a ng-class="active(metro)"
+							   ng-click="selectMetro(metro)" >
+							   {{metro.toolTitle}}</a>
 						</li>
 					</ul>
 				</td>
 				<td class="col-xs-8 toolMetroDisp">
 					<ul >
+						<li >
+							<div class = "toolPlayer2">
+								<audio controls ng-show="vm.player1">
+			  						<source ng-src="audio/beats/RnB_230.mp3" type="audio/mpeg">
+									Your browser does not support the audio element.
+								</audio>
+								<audio controls ng-show="vm.player2">
+			  						<source ng-src="{{vm.play2}}" type="audio/mpeg">
+									Your browser does not support the audio element.
+								</audio>
+							</div>
+						</li>
 						<li>
-							<a>0.5 x</a>
+							<a ng-class="vm.activeSpeed1"
+							   ng-click="selectSpeed(vm.currentMetro.toolSpeed1)">
+							   {{vm.currentMetro.toolSpeed1}}</a>
 						</li>
 						<li >
-							<a>1.0 x</a>
+							<a ng-class="vm.activeSpeed2"
+							   ng-click="selectSpeed(vm.currentMetro.toolSpeed2)">
+							   {{vm.currentMetro.toolSpeed2}}</a>
 						</li>
 					</ul>
 				</td>

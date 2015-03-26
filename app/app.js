@@ -5,7 +5,6 @@
 							 "ui.router",
 							 "ui.mask",
 							 "ui.bootstrap",
-							 "ngAudio",
 							 "ngCookies",
 							 "productResourceMock"]);
 	//error handling

@@ -2573,6 +2573,62 @@ var improv2 = [
 			 "imageUrl1": "images/beats/FolkBeat1Img.png",
 			 "beatAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
 			}
+		];
+
+		//tools collection
+		var tools = [
+			{"toolId": 1,
+			 "toolName": "Tuner",
+			 "toolTitle": "G",
+			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"toolId": 2,
+			 "toolName": "Tuner",
+			 "toolTitle": "C",
+			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"toolId": 3,
+			 "toolName": "Tuner",
+			 "toolTitle": "E",
+			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"toolId": 2,
+			 "toolName": "Tuner",
+			 "toolTitle": "A",
+			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			},
+			{"toolId": 4,
+			 "toolName": "Metronome",
+			 "toolTitle": "Type 1",
+			 "toolSpeed1": "0.5 x",
+			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolSpeed2": "1.0 x",
+			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			},
+			{"toolId": 5,
+			 "toolName": "Metronome",
+			 "toolTitle": "Type 2",
+			 "toolSpeed1": "0.5 x",
+			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolSpeed2": "1.0 x",
+			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			},
+			{"toolId": 6,
+			 "toolName": "Metronome",
+			 "toolTitle": "Type 3",
+			 "toolSpeed1": "0.5 x",
+			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolSpeed2": "1.0 x",
+			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			},
+			{"toolId": 7,
+			 "toolName": "Metronome",
+			 "toolTitle": "Type 4",
+			 "toolSpeed1": "0.5 x",
+			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolSpeed2": "1.0 x",
+			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			}
 		];		
 
 		var productUrl = "/api/chords";
@@ -2581,7 +2637,8 @@ var improv2 = [
 		var progUrl = "/api/progressions";
 		var pattern1Url = "/api/improv1";
 		var pattern2Url = "/api/improv2";
-		var beatUrl = "/api/beats";		
+		var beatUrl = "/api/beats";
+		var toolUrl = "/api/tools";			
 
 
 		$httpBackend.whenGET(productUrl).respond(chords);
@@ -2591,6 +2648,7 @@ var improv2 = [
 		$httpBackend.whenGET(pattern2Url).respond(improv2);
 		$httpBackend.whenGET(themeUrl).respond(themes);
 		$httpBackend.whenGET(beatUrl).respond(beats);
+		$httpBackend.whenGET(toolUrl).respond(tools);
 
 		var editingRegex = new RegExp(tipUrl + "/[0-9][0-9]*", '');
 		

@@ -4,7 +4,7 @@
   <META character="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>Uke 2.31</title>
+  <title>Uke 2.32</title>
   <!-- Startup configuration -->
  <!-- <link rel="manifest" href="manifest.json"> -->
   <!-- Fallback application metadata for legacy browsers -->
@@ -51,6 +51,7 @@
   <script src="common/services/improv2Resource.js"></script>
   <script src="common/services/themeResource.js"></script>    
   <script src="common/services/beatResource.js"></script>
+  <script src="common/services/toolResource.js"></script>
   <script src="common/services/progressionResource.js"></script>
   <script src="common/services/productResourceMock.js"></script>
   <script src="common/services/productService.js"></script>
@@ -116,8 +117,10 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Themes <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li ng-repeat="theme in vm.themes"><a ng-click="selectTheme(theme.themeId)">{{theme.themeName}}</a></li>
+              <!--
               <li class="divider"></li>
               <li><a ui-sref="Themes">Themes Preview</a></li>
+              -->
             </ul>
           </li>
 				</ul>

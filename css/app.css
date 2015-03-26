@@ -485,6 +485,12 @@ html, body {
 	padding: 10px 15px;
 	font-size: 1.5em;
 }
+#toolTuner .active{
+	background: #DA9223;
+	color: #fff;
+	border-color: #000;
+
+}
 
 #toolMetro table td{
 	border-top: 0px;	
@@ -502,6 +508,12 @@ html, body {
 	margin-left: -35px;
 	width: 500px;
 }
+.toolMetroList .active{
+	background: #DA9223;
+	color: #fff;
+	border-color: #000;
+
+}
 .toolMetroDisp ul li{
 	display: inline-block;
 	list-style-type: none;
@@ -516,6 +528,19 @@ html, body {
 	padding: 17px 11px;
 	font-size: 1.3em;
 	margin-left: -25px;
+}
+.toolMetroDisp .active{
+	background: #DA9223;
+	color: #fff;
+	border-color: #000;
+
+}
+.toolPlayer{
+	padding-top: 10px;
+	padding-left: 10%;
+}
+.toolPlayer2{
+	width: 50%;
 }
 /**--------------MAIN VIEW------------------**/
 #mainView {
