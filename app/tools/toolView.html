@@ -35,8 +35,7 @@
 					</ul>
 				</td>
 				<td class="col-xs-8 toolMetroDisp">
-					<ul >
-						<li >
+					<div class="row">
 							<div class = "toolPlayer2">
 								<audio controls ng-show="vm.player1">
 			  						<source ng-src="audio/beats/RnB_230.mp3" type="audio/mpeg">
@@ -47,7 +46,8 @@
 									Your browser does not support the audio element.
 								</audio>
 							</div>
-						</li>
+						</div>
+					<ul >
 						<li>
 							<a ng-class="vm.activeSpeed1"
 							   ng-click="selectSpeed(vm.currentMetro.toolSpeed1)">
