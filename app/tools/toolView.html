@@ -8,16 +8,14 @@
 		</div>
 		<div class = "panel-body">
 			<div class="videogular-container" ng-show="vm.tunerPlayer">
-			    <videogular vg-theme="vm.config.theme.url" class="videogular-container audio">
+			    <videogular vg-preload="vm.config.preload" vg-loop="vm.config.loop" vg-theme="vm.config.theme.url" class="videogular-container audio">
 			        <vg-media vg-src="vm.config.sources" vg-type="audio"></vg-media>
 
 			        <vg-controls>
 			            <vg-play-pause-button></vg-play-pause-button>
-			            <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
 			            <vg-scrub-bar>
 			                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
 			            </vg-scrub-bar>
-			            <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
 			            <vg-volume>
 			                <vg-mute-button></vg-mute-button>
 			            </vg-volume>
@@ -54,16 +52,14 @@
 
 						<div class = "toolPlayer2">
 							<div class="videogular-container" ng-show="vm.metroPlayer">
-							    <videogular vg-theme="vm.config.theme.url" class="videogular-container audio">
+							    <videogular vg-preload="vm.config.preload" vg-loop="vm.config.loop" vg-theme="vm.config.theme.url" class="videogular-container audio">
 							        <vg-media vg-src="vm.config.sources" vg-type="audio"></vg-media>
 
 							        <vg-controls>
 							            <vg-play-pause-button></vg-play-pause-button>
-							            <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
 							            <vg-scrub-bar>
 							                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
 							            </vg-scrub-bar>
-							            <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
 							            <vg-volume>
 							                <vg-mute-button></vg-mute-button>
 							            </vg-volume>

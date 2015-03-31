@@ -16,10 +16,7 @@
 
 	    //player test
  		vm.config = {
-            sources: [
-          		{src: $sce.trustAsResourceUrl("http://static.videogular.com/assets/audios/videogular.mp3"), type: "audio/mpeg"},
-          		{src: $sce.trustAsResourceUrl("http://static.videogular.com/assets/audios/videogular.ogg"), type: "audio/ogg"}
-      		],
+ 			preload: "auto",
         	theme: {
       			url: "http://www.videogular.com/styles/themes/default/latest/videogular.css"
         	}
@@ -47,8 +44,10 @@
 			switch(vm.currentTuner.toolTitle) {
 			    case 'G':
 			        vm.config = {
+			        	preload: "preload",
+			        	loop: false,
 			            sources: [
-			          		{src: $sce.trustAsResourceUrl("http://m.zhenQcreative.com/Uke/audio/beats/RnB_230.mp3"), type: "audio/mpeg"}
+			          		{src: $sce.trustAsResourceUrl(vm.currentTuner.toolAudioUrl), type: "audio/mpeg"}
 			      		],
 			        	theme: {
 			      			url: "http://www.videogular.com/styles/themes/default/latest/videogular.css"
@@ -58,8 +57,10 @@
 			        break;   
 			    case 'C':
 			        vm.config = {
+			        	preload: "auto",
+			        	loop: false,
 			            sources: [
-			          		{src: $sce.trustAsResourceUrl("http://static.videogular.com/assets/audios/videogular.mp3"), type: "audio/mpeg"}
+			          		{src: $sce.trustAsResourceUrl(vm.currentTuner.toolAudioUrl), type: "audio/mpeg"}
 			      		],
 			        	theme: {
 			      			url: "http://www.videogular.com/styles/themes/default/latest/videogular.css"
@@ -69,8 +70,10 @@
 			        break;
 			    case 'E':
 			    	vm.config = {
+			    		preload: "auto",
+			    		loop: false,
 			            sources: [
-			          		{src: $sce.trustAsResourceUrl("http://m.zhenQcreative.com/Uke/audio/beats/RnB_230.mp3"), type: "audio/mpeg"}
+			          		{src: $sce.trustAsResourceUrl(vm.currentTuner.toolAudioUrl), type: "audio/mpeg"}
 			      		],
 			        	theme: {
 			      			url: "http://www.videogular.com/styles/themes/default/latest/videogular.css"
@@ -80,8 +83,10 @@
 			        break;
 			    case 'A':
 			    	vm.config = {
+			    		preload: "auto",
+			    		loop: false,
 			            sources: [
-			          		{src: $sce.trustAsResourceUrl("http://static.videogular.com/assets/audios/videogular.mp3"), type: "audio/mpeg"}
+			          		{src: $sce.trustAsResourceUrl(vm.currentTuner.toolAudioUrl), type: "audio/mpeg"}
 			      		],
 			        	theme: {
 			      			url: "http://www.videogular.com/styles/themes/default/latest/videogular.css"
@@ -90,11 +95,9 @@
 			    	$scope.active('clear');
 			        break;
 			    case 'clear':
-			    	vm.config.stop();
 			    	vm.tunerPlayer = false;
 			        break;
 			    default:
-			    	vm.config.stop();
 			        return "!active";
 			}
 		};
@@ -124,8 +127,8 @@
 			vm.currentMetro = name;
 			vm.currentMetroTitle = ": " + name.toolTitle;
 			vm.currentSpeedTitle = " ";
-			$scope.active('clear');
 			vm.tunerPlayer = false;
+			$scope.active('clear');
 			//console.log("vm.player1", vm.currentMetro.toolAudioUrl1);
 		};
 		
@@ -136,6 +139,8 @@
 			switch(name) {
 			    case '0.5 x':
 			    	vm.config = {
+			    		preload: "auto",
+			    		loop: true,
 			            sources: [
 			          		{src: $sce.trustAsResourceUrl(vm.currentMetro.toolAudioUrl1), type: "audio/mpeg"}
 			      		],
@@ -146,6 +151,8 @@
 			        break;
 			    case '1.0 x':
 			    	vm.config = {
+			    		preload: "auto",
+			    		loop: true,
 			            sources: [
 			          		{src: $sce.trustAsResourceUrl(vm.currentMetro.toolAudioUrl2), type: "audio/mpeg"}
 			      		],
@@ -155,7 +162,6 @@
 					};
 			        break;
 			    default:
-			    	vm.config.stop();
 			        return "!active";
 			}
 			$scope.active(name);

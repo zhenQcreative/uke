@@ -2580,54 +2580,54 @@ var improv2 = [
 			{"toolId": 1,
 			 "toolName": "Tuner",
 			 "toolTitle": "G",
-			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			 "toolAudioUrl": "audio/Uke_G.mp3"
 			},
 			{"toolId": 2,
 			 "toolName": "Tuner",
 			 "toolTitle": "C",
-			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			 "toolAudioUrl": "audio/Uke_C.mp3"
 			},
 			{"toolId": 3,
 			 "toolName": "Tuner",
 			 "toolTitle": "E",
-			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			 "toolAudioUrl": "audio/Uke_E.mp3"
 			},
 			{"toolId": 2,
 			 "toolName": "Tuner",
 			 "toolTitle": "A",
-			 "toolAudioUrl": "audio/beats/folkBeat_12barx3.m4a"
+			 "toolAudioUrl": "audio/Uke_A.mp3"
 			},
 			{"toolId": 4,
 			 "toolName": "Metronome",
 			 "toolTitle": "Type 1",
 			 "toolSpeed1": "0.5 x",
-			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolAudioUrl1": "audio/metro/Uke_Metronome_BDSnare.mp3",
 			 "toolSpeed2": "1.0 x",
-			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			 "toolAudioUrl2": "audio/metro/Uke_Metronome_BDSnare120.mp3"
 			},
 			{"toolId": 5,
 			 "toolName": "Metronome",
 			 "toolTitle": "Type 2",
 			 "toolSpeed1": "0.5 x",
-			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolAudioUrl1": "audio/metro/Uke_Metronome_Dry.mp3",
 			 "toolSpeed2": "1.0 x",
-			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			 "toolAudioUrl2": "audio/metro/Uke_Metronome_Dry120.mp3"
 			},
 			{"toolId": 6,
 			 "toolName": "Metronome",
 			 "toolTitle": "Type 3",
 			 "toolSpeed1": "0.5 x",
-			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolAudioUrl1": "audio/metro/Uke_Metronome_ESnare.mp3",
 			 "toolSpeed2": "1.0 x",
-			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			 "toolAudioUrl2": "audio/metro/Uke_Metronome_ESnare120.mp3"
 			},
 			{"toolId": 7,
 			 "toolName": "Metronome",
 			 "toolTitle": "Type 4",
 			 "toolSpeed1": "0.5 x",
-			 "toolAudioUrl1": "audio/beats/RnB_230.mp3",
+			 "toolAudioUrl1": "audio/metro/Uke_Metronome_WetBDSnare.mp3",
 			 "toolSpeed2": "1.0 x",
-			 "toolAudioUrl2": "audio/beats/metronome_beat_120bpm.mp3"
+			 "toolAudioUrl2": "audio/metro/Uke_Metronome_WetBDSnare120.mp3"
 			}
 		];		
 

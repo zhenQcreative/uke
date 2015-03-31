@@ -607,6 +607,84 @@ html, body {
 	padding: 5px 65% 5px 65%;
 	border-radius: 100px;
 }
+/**--------------Tools VIEW------------------**/
+#toolView .panel-heading{
+	background: rgba(111,111,111,0.9);
+	border-style: none;
+}
+#toolView .panel-body{
+	padding: 2px;
+}
+#toolTuner table td{
+	border: 0;
+	text-align: center;
+	padding-top: 25px;
+}
+#toolTuner a{
+	text-decoration: none;
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+	border-radius:100%;
+	padding: 10px 15px;
+	font-size: 1.5em;
+}
+#toolTuner .active{
+	background: #fff;
+	color: #000;
+	border-color: #000;
+
+}
+
+#toolMetro table td{
+	border-top: 0px;	
+}
+.toolMetroList ul li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+.toolMetroList a{
+	text-decoration: none;
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+	border-radius:100px;
+	padding: 10px;
+	margin-left: -35px;
+	width: 500px;
+}
+.toolMetroList .active{
+	background: #fff;
+	color: #000;
+	border-color: #000;
+
+}
+.toolMetroDisp ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-top: 40px;
+	padding: 20px;
+}
+.toolMetroDisp a{
+	text-decoration: none;
+	background: rgba(111,111,111,0.9);
+	color: #fff;
+	border-radius:100%;
+	padding: 17px 11px;
+	font-size: 1.3em;
+	margin-left: -25px;
+}
+.toolMetroDisp .active{
+	background: #fff;
+	color: #000;
+	border-color: #000;
+
+}
+.toolPlayer{
+	padding-top: 10px;
+	padding-left: 10%;
+}
+.toolPlayer2{
+	width: 90%;
+}
 
 /**--------------MAIN VIEW------------------**/
 #mainView {
