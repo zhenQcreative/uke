@@ -1,15 +1,30 @@
 <div id = "toolView">
+
+	
+
 	<div class="panel panel-primary" id="toolTuner">
 		<div class = "panel-heading">
 			Tuner {{vm.currentTunerTitle}}
 		</div>
 		<div class = "panel-body">
-			<div class = "toolPlayer">
-				<audio controls ng-show="vm.tunerPlayer">
-					<source ng-src="audio/beats/RnB_230.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
-				</audio>
+			<div class="videogular-container" ng-show="vm.tunerPlayer">
+			    <videogular vg-theme="vm.config.theme.url" class="videogular-container audio">
+			        <vg-media vg-src="vm.config.sources" vg-type="audio"></vg-media>
+
+			        <vg-controls>
+			            <vg-play-pause-button></vg-play-pause-button>
+			            <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
+			            <vg-scrub-bar>
+			                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+			            </vg-scrub-bar>
+			            <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
+			            <vg-volume>
+			                <vg-mute-button></vg-mute-button>
+			            </vg-volume>
+			        </vg-controls>
+			    </videogular>
 			</div>
+			
 			<table class="table">
 				<td class="col-xs-3" ng-repeat="tuner in vm.tuners">
 					<a ng-class="active(tuner)"
@@ -36,17 +51,27 @@
 				</td>
 				<td class="col-xs-8 toolMetroDisp">
 					<div class="row">
-							<div class = "toolPlayer2">
-								<audio controls ng-show="vm.player1">
-			  						<source ng-src="audio/beats/RnB_230.mp3" type="audio/mpeg">
-									Your browser does not support the audio element.
-								</audio>
-								<audio controls ng-show="vm.player2">
-			  						<source ng-src="{{vm.play2}}" type="audio/mpeg">
-									Your browser does not support the audio element.
-								</audio>
+
+						<div class = "toolPlayer2">
+							<div class="videogular-container" ng-show="vm.metroPlayer">
+							    <videogular vg-theme="vm.config.theme.url" class="videogular-container audio">
+							        <vg-media vg-src="vm.config.sources" vg-type="audio"></vg-media>
+
+							        <vg-controls>
+							            <vg-play-pause-button></vg-play-pause-button>
+							            <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display>
+							            <vg-scrub-bar>
+							                <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+							            </vg-scrub-bar>
+							            <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display>
+							            <vg-volume>
+							                <vg-mute-button></vg-mute-button>
+							            </vg-volume>
+							        </vg-controls>
+							    </videogular>
 							</div>
 						</div>
+					</div>
 					<ul >
 						<li>
 							<a ng-class="vm.activeSpeed1"

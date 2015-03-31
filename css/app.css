@@ -28,7 +28,6 @@ html, body {
 .table > thead > tr > th, .table > thead > tr > td {
     border: 0;
 }
-
 /**--------------CHORDS VIEW------------------**/
 #altChords {
 	background: transparent;
@@ -540,7 +539,7 @@ html, body {
 	padding-left: 10%;
 }
 .toolPlayer2{
-	width: 50%;
+	width: 90%;
 }
 /**--------------MAIN VIEW------------------**/
 #mainView {
